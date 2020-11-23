@@ -1,0 +1,9 @@
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\bin\Debug\netstandard2.0\Arifmetics.deps.json
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\bin\Debug\netstandard2.0\Arifmetics.dll
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\bin\Debug\netstandard2.0\Arifmetics.pdb
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.AssemblyInfoInputs.cache
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.AssemblyInfo.cs
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.dll
+D:\ITStep\C#\DZ_06\Arifmetics\Arifmetics\obj\Debug\netstandard2.0\Arifmetics.pdb

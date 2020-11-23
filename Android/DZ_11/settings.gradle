@@ -1,0 +1,2 @@
+rootProject.name='AnimaSun'
+include ':app'

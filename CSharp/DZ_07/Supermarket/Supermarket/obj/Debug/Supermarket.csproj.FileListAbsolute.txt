@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\bin\Debug\Supermarket.exe.config
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\bin\Debug\Supermarket.exe
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\bin\Debug\Supermarket.pdb
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\obj\Debug\Supermarket.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\obj\Debug\Supermarket.exe
+D:\ITStep\C#\DZ_07\Supermarket\Supermarket\obj\Debug\Supermarket.pdb

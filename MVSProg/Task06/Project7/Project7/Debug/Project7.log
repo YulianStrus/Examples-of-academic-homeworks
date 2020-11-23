@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\mvsprog\task6\project7\project7\source.cpp(4): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task6\project7\project7\source.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Project7.vcxproj -> D:\MVSProg\Task6\Project7\Debug\Project7.exe

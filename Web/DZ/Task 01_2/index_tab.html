@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <style>
+        .t1 {
+            border-collapse: collapse;
+        }
+
+        .t2 {
+            border: 2px solid white;
+            border-collapse: separate;
+        }
+
+       .t3 {
+            border-collapse: collapse;
+            table-layout: auto;
+        }
+        .t4
+        {
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        .t2 {
+            border: 1px solid #777777;
+            padding: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .t2 {
+            border: 1px solid #777777;
+            padding: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+            empty-cells: hide;
+        }
+
+        .t3 {
+            border: 1px solid #777777;
+            padding: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><b>Personal pronouns</b></div>
+    <table class="t1" border=1px bordercolor="#dbdbdb" cellpadding="7">
+        <tr>
+            <td colspan="3" width=500px></td>
+            <td width=200px>Subject</td>
+            <td width=200px>Object</td>
+        </tr>
+        <tr>
+            <td rowspan="5" width=200px>Singilar</td>
+            <td colspan="2" width=300px>1st Person</td>
+            <td width=200px>I</td>
+            <td width=200px>me</td>
+        </tr>
+        <tr>
+            <td colspan="2" width=300px>2nd Person</td>
+            <td width=200px>you</td>
+            <td width=200px>you</td>
+        </tr>
+        <tr>
+            <td rowspan="3" width=200px>3rd Person</td>
+            <td width=100px>♂</td>
+            <td width=200px>he</td>
+            <td width=200px>him</td>
+        </tr>
+        <tr>
+            <td width=100px>♀</td>
+            <td width=200px>she</td>
+            <td width=200px>her</td>
+        </tr>
+        <tr>
+            <td width=100px>⚪</td>
+            <td width=200px>it</td>
+            <td width=200px>it</td>
+        </tr>
+        <tr>
+            <td rowspan="3" width=200px>Plural</td>
+            <td colspan="2" width=300px>1st Person</td>
+            <td width=200px>we</td>
+            <td width=200px>us</td>
+        </tr>
+        <tr>
+            <td colspan="2" width=300px>2nd Person</td>
+            <td width=200px>you</td>
+            <td width=200px>you</td>
+        </tr>
+        <tr>
+            <td colspan="2" width=300px>3rd Person</td>
+            <td width=200px>they</td>
+            <td width=200px>them</td>
+        </tr>
+    </table>
+    <h4>Table2</h4>
+    <p></p>
+    <table class="t1" border=1px bordercolor="#dbdbdb" cellpadding="7">
+        <tr>
+            <td width=500px>title1</td>
+            <td width=200px>title2</td>
+            <td width=200px>title3</td>
+        </tr>
+        <tr>
+            <td width=500px valign="top" height=50px>
+                <table table class="t1" border=1px bordercolor="#dbdbdb" cellpadding="7">
+                    <tr>
+                        <td width=150px>cell1</td>
+                        <td width=150px>cell2</td>
+                        <td width=150px>cell3</td>
+                    </tr>
+                </table>
+            </td>
+            <td width=200px>cell2</td>
+            <td width=200px>cell3</td>
+        </tr>
+        <tr>
+            <td width=500px>cell4</td>
+            <td width=200px>cell5</td>
+            <td width=200px>cell6</td>
+        </tr>
+    </table>
+    <h1>My spending record</h1>
+    <table class="t1" border=3px bordercolor="#dbdbdb" cellpadding="10">
+        <caption>How I chose to spent my money</caption>
+        <tr>
+            <th bgcolor="#ededed" align="center">Purchase</th>
+            <th bgcolor="#ededed" align="center">Location</th>
+            <th bgcolor="#ededed" align="center">Date</th>
+            <th bgcolor="#ededed" align="center">Evaluation</th>
+            <th bgcolor="#ededed" align="center">Cost (€)</th>
+        </tr>
+        <tr>
+            <td align="center"><i>Hair</i></td>
+            <td align="center"><i>Hairdresser</i></td>
+            <td align="center"><i>12/09</i></td>
+            <td align="center"><i>Great idea</i></td>
+            <td align="center"><i>30</i></td>
+        </tr>
+        <tr>
+            <td align="center"><i>Lasagna</i></td>
+            <td align="center"><i>Restaurant</i></td>
+            <td align="center"><i>12/09</i></td>
+            <td align="center"><i>Regrets</i></td>
+            <td align="center"><i>18</i></td>
+        </tr>
+        <tr>
+            <td align="center"><i>Shoes</i></td>
+            <td align="center"><i>Shoep</i></td>
+            <td align="center"><i>13/09</i></td>
+            <td align="center"><i>Big regrets</i></td>
+            <td align="center"><i>65</i></td>
+        </tr>
+        <tr>
+            <td align="center"><i>Toothpaste</i></td>
+            <td align="center"><i>Supermarket</i></td>
+            <td align="center"><i>13/09</i></td>
+            <td align="center"><i>Good</i></td>
+            <td align="center"><i>5</i></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><b>SUM</b></td>
+            <td align="center"><b>118</b></td>
+        </tr>
+    </table>
+    <h1>Border collapsing 1</h1>
+    <h3>border-collapse: separate; (default)</h3>
+    <table class="t2" cellpadding="7">
+        <tr>
+            <th class="t2" colspan="2" align="center" width=200px>Carnivores</th>
+            <th class="t2" align="center" width=100px>Primates</th>
+        </tr>
+        <tr>
+            <td class="t2" width=75px>Tiger</td>
+            <td class="t2" width=125px>Grey Wolf</td>
+            <td class="t2">Indri</td>
+        </tr>
+        <tr>
+            <td class="t2" width=75px>Cheetah</td>
+            <td class="t2" width=125px>Cape hunting dog</td>
+            <td class="t2">Sifaka</td>
+        </tr>
+        <tr>
+            <td class="t2" width=75px>Caracal</td>
+            <td class="t2" width=125px>Red fox</td>
+            <td class="t2">Brown lemur</td>
+        </tr>
+        <tr>
+            <td class="t2" width=75px>Wildcat</td>
+            <td class="t2" width=125px>Fennec</td>
+            <td class="t2">Dwarf lemur</td>
+        </tr>
+    </table>
+    <h3>border-collapse: collapse;</h3>
+    <table class="t1" border=1px bordercolor="#777777">
+        <tr>
+            <th class="t2" rowspan="2" aling="center">Carnivores</th>
+            <td class="t2">Tiger</td>
+            <td class="t2">Cheetah</td>
+            <td class="t2">Caracal</td>
+            <td class="t2">Wildcat</td>
+        </tr>
+        <tr>
+            <td class="t2">Grey Wolf</td>
+            <td class="t2">Cape hunting dog</td>
+            <td class="t2">Red fox</td>
+            <td class="t2">Fennec</td>
+        </tr>
+        <tr>
+            <th class="t2" aling="center">Primates</th>
+            <td class="t2">Indri</td>
+            <td class="t2">Sifaka</td>
+            <td class="t2">Brown lemur</td>
+            <td class="t2">Dwarf lemur</td>
+        </tr>
+    </table>
+    <p></p>
+    <table class="t2" cellpadding="7">
+        <caption>Animal group</caption>
+        <tr>
+            <th class="t2" align="center" width=100px>Apes</th>
+            <th class="t2" colspan="2" align="center" width=200px>Cats</th>
+            <th class="t2" align="center" width=100px bgcolor=#d2d0f2>Dogs</th>
+            <th class="t2" align="center" width=150px>Lemurs</th>
+        </tr>
+        <tr>
+            <td class="t2">Gorilla</td>
+            <td class="t2" width=100px></td>
+            <td class="t2" width=100px>Cheetah</td>
+            <td class="t2" bgcolor=#d2d0f2>Grey Wolf</td>
+            <td class="t2"></td>
+        </tr>
+        <tr>
+            <td class="t2"></td>
+            <td class="t2" width=100px>Lion</td>
+            <td class="t2" width=100px>Puma</td>
+            <td class="t2"></td>
+            <td class="t2"></td>
+        </tr>
+        <tr>
+            <td class="t2"></td>
+            <td class="t2" width=100px></td>
+            <td class="t2" width=100px>Serval</td>
+            <td class="t2"></td>
+            <td class="t2">Red ruffed lemur</td>
+        </tr>
+        <tr>
+            <td class="t2">Chimpanzee</td>
+            <td class="t2" width=100px>Leopard</td>
+            <td class="t2" width=100px>Caracal</td>
+            <td class="t2" bgcolor=#d2d0f2>Red Fox</td>
+            <td class="t2">Ring tailed lemur</td>
+        </tr>
+        <tr>
+            <td class="t2">Bonobo</td>
+            <td class="t3" width=100px> </td>
+            <td class="t2" width=100px>Wild cat</td>
+            <td class="t3" bgcolor=#d2d0f2> </td>
+            <td class="t3"> </td>
+        </tr>
+    </table>
+    <p></p>
+    <table class="t3" border=1px >
+        <caption>Animal group</caption>
+        <tr>
+            <th class="t2" align="center" width=100px>Apes</th>
+            <th class="t2" colspan="2" align="center" width=200px>Cats</th>
+            <th class="t2" align="center" bgcolor=#d2d0f2>Dogs</th>
+            <th class="t2" align="center" width=150px>Lemurs</th>
+        </tr>
+        <tr>
+            <td class="t3">Gorilla</td>
+            <td class="t3" width=100px>Tiger</td>
+            <td class="t3" width=100px>Cheetah</td>
+            <td class="t3" bgcolor=#d2d0f2>Grey Wolf</td>
+            <td class="t3">Indri</td>
+        </tr>
+        <tr>
+            <td class="t3"> Orangutan</td>
+            <td class="t3" width=100px>Lion</td>
+            <td class="t3" width=100px>Puma</td>
+            <td class="t3" bgcolor=#d2d0f2>Cape hunting dog</td>
+            <td class="t3">Sifaka</td>
+        </tr>
+        <tr>
+            <td class="t3">Man</td>
+            <td class="t3" width=100px>Jaguar</td>
+            <td class="t3" width=100px>Serval</td>
+            <td class="t3" bgcolor=#d2d0f2>Very silly big long-long named dog woof</td>
+            <td class="t3">Red ruffed lemur</td>
+        </tr>
+        <tr>
+            <td class="t3">Chimpanzee</td>
+            <td class="t3" width=100px>Leopard</td>
+            <td class="t3" width=100px>Caracal</td>
+            <td class="t3" bgcolor=#d2d0f2>Red Fox</td>
+            <td class="t3">Ring tailed lemur</td>
+        </tr>
+        <tr>
+            <td class="t3">Bonobo</td>
+            <td class="t3" width=100px>Show leopard </td>
+            <td class="t3" width=100px>Wild cat</td>
+            <td class="t3" bgcolor=#d2d0f2>Fennec </td>
+            <td class="t3">Dwarf lemur </td>
+        </tr>
+    </table>
+    <p></p>
+    <table class="t4" border=1px >
+        <caption>Animal group</caption>
+        <tr>
+            <th class="t2" align="center" width=75px>Apes</th>
+            <th class="t2" colspan="2" align="center" width=150px>Cats</th>
+            <th class="t2" align="center" bgcolor=#d2d0f2 width=125px>Dogs</th>
+            <th class="t2" align="center" width=150px>Lemurs</th>
+        </tr>
+        <tr>
+            <td class="t3">Gorilla</td>
+            <td class="t3" width=100px>Tiger</td>
+            <td class="t3" width=100px>Cheetah</td>
+            <td class="t3" bgcolor=#d2d0f2>Grey Wolf</td>
+            <td class="t3">Indri</td>
+        </tr>
+        <tr>
+            <td class="t3"> Orangutan</td>
+            <td class="t3" width=100px>Lion</td>
+            <td class="t3" width=100px>Puma</td>
+            <td class="t3" bgcolor=#d2d0f2>Cape hunting dog</td>
+            <td class="t3">Sifaka</td>
+        </tr>
+        <tr>
+            <td class="t3">Man</td>
+            <td class="t3" width=100px>Jaguar</td>
+            <td class="t3" width=100px>Serval</td>
+            <td class="t3" bgcolor=#d2d0f2>Very silly big long-long named dog woof</td>
+            <td class="t3">Red ruffed lemur</td>
+        </tr>
+        <tr>
+            <td class="t3">Chimpanzee</td>
+            <td class="t3" width=100px>Leopard</td>
+            <td class="t3" width=100px>Caracal</td>
+            <td class="t3" bgcolor=#d2d0f2>Red Fox</td>
+            <td class="t3">Ring tailed lemur</td>
+        </tr>
+        <tr>
+            <td class="t3">Bonobo</td>
+            <td class="t3" width=100px>Show leopard </td>
+            <td class="t3" width=100px>Wild cat</td>
+            <td class="t3" bgcolor=#d2d0f2>Fennec </td>
+            <td class="t3">Dwarf lemur </td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MapsApp</string>
+    <string name="open_view">Open View</string>
+    <string name="open_map">Open Map</string>
+    <string name="search_view">Search View</string>
+    <string name="search_map">Search Map</string>
+
+</resources>

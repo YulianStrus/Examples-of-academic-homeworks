@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\mvsprog\task24\project6\project6\source.cpp(10): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  d:\mvsprog\task24\project6\project6\source.cpp(28): note: see reference to function template instantiation 'T ArithmMean<double>(T [],int)' being compiled
+          with
+          [
+              T=double
+          ]
+  Project6.vcxproj -> D:\MVSProg\Task24\Project6\Debug\Project6.exe

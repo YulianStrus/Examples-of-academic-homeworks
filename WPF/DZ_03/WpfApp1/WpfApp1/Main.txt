@@ -1,0 +1,123 @@
+            <ListBox BorderThickness="2" HorizontalContentAlignment="Center" BorderBrush="#046240" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="10,10,20,20" Background="#e7cdb7" Name="Menu" SelectionChanged="Menu_SelectionChanged">
+            <TextBlock Text="MENU" Margin="0,20" FontFamily="Comic Sans MS" FontWeight="SemiBold" FontSize="20" Foreground="#046240"/>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">1. Mango Dragonfruit Lemonade Starbucks 5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="#046240" Height="116" Margin="5,5,5,5">
+                        <StackPanel Background="#e7cdb7" Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/11459739/asus_90nr00s2_m07930_images_11459739206.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">2. Hot coffee with milk for your choose 2.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200"  Source="https://i2.rozetka.ua/goods/11471808/copy_asus_90nb0jw1_m02880_5c99f119b7378_images_11471808812.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">3. Peach Pink Fruits 4.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200"  Source="https://i1.rozetka.ua/goods/11244536/asus_90nb0i83_m03130_images_11244536292.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">4. Violet drink 5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i1.rozetka.ua/goods/10842502/asus_rog_strix_gl503ge_en049t_90nr0084_m00600_images_10842502893.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">5. Dragon Drink 6.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/4731878/asus_x542uf_dm262_images_4731878840.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">6. Rainbow Dragon Drink 7$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i1.rozetka.ua/goods/4731867/copy_asus_x542uf_dm236_5b151d582aaef_images_4731867960.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">7. Frappuccino for your choose 4$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/10642535/asus_d540na_gq211t_images_10642535768.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">8. Rainbow Lemonade 3.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Height="200" Margin="5,5,5,5">
+                        <StackPanel Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i1.rozetka.ua/goods/10641892/asus_x540ma_gq001_images_10641892358.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">9. Mango Dragonfruit Drink 4.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="#046240" Height="204" Margin="5,5,5,5">
+                        <StackPanel Background="#e7cdb7" Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/12229921/copy_asus_90nr00s3_m03640_5cdd62a3dac4d_images_12229921491.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">10. Bubble Gum Mocha 7.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="#046240" Height="244" Margin="5,5,5,5">
+                        <StackPanel Background="#e7cdb7" Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/11197099/copy_asus_90nr0112_m01520_5c792465d92e3_images_11197099701.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">11. Unicorn Frappuccino 8$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="#046240" Height="176" Margin="5,5,5,5">
+                        <StackPanel Background="#e7cdb7" Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i2.rozetka.ua/goods/11197687/asus_90nr00q1_m04770_images_11197687521.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="16" Foreground="#046240">12. Rainbow Bubble Gum Mocha 7.5$
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="#046240" Height="204" Margin="5,5,5,5">
+                        <StackPanel Background="#e7cdb7" Margin="2,2,2,2">
+                            <Image Width="200" Source="https://i1.rozetka.ua/goods/10641892/asus_x540ma_gq001_images_10641892358.jpg"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+        </ListBox>
+        <StackPanel Background="#046240" Grid.Row="2">
+            <StackPanel  Background="#e7cdb7" Height="98" Margin="0,2,0,0">
+                <TextBlock Text="05.11.19" Margin="0,35,0,0" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="SemiBold" FontSize="17" Foreground="#046240"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Background="#046240" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
+            <StackPanel Background="#e7cdb7" Height="98" Margin="0,2,0,0">
+                <WrapPanel  HorizontalAlignment="Right">
+                
+             </WrapPanel>
+            </StackPanel>
+        </StackPanel>

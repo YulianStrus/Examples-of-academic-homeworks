@@ -1,0 +1,22 @@
+.fontL
+{
+font-family: 'Lobster', cursive;
+}
+.fontY
+{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.div1
+{
+    width: 500px;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.li1
+{
+    border-bottom: 2px solid black;
+    width: 150px;
+}

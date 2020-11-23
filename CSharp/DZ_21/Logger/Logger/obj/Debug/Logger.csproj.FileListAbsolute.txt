@@ -1,0 +1,2 @@
+D:\ITStep\C#\DZ_20\Logger\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_20\Logger\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache

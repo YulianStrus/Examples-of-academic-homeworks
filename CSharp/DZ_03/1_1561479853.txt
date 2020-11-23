@@ -1,0 +1,11 @@
+Створити проект для роботи з масивом
+1) Створити одновимірний масив(спочатку 0 елементів)
+2) Створити можливість взаємодії з користувачем(текстове меню)
+	    1.Add element");
+            2.Show all");
+            3.Sort Array");
+            4.Find in array (return first contains; 2 - return new array of positions)");
+            5.Reverse");
+            6.Remove element (1.By index; 2 By Value)");
+            7. Random elements(count)");
+3) Реалізувати функції для обробки масиву

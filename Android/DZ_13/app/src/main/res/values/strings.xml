@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="button_buy">Купити</string>
+    <string name="button_selling">Продати</string>
+    <string name="textview">TextView</string>
+    <string name="rub">RUB</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+</resources>

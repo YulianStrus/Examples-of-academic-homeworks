@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\mvsprog\task29\project1\project1\source.cpp(23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\mvsprog\task29\project1\project1\source.cpp(98): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project1.vcxproj -> D:\MVSProg\Task29\Project1\Debug\Project1.exe

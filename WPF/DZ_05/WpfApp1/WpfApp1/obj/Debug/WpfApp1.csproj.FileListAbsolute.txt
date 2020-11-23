@@ -1,0 +1,14 @@
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\ITStep\WPF\DZ_05\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

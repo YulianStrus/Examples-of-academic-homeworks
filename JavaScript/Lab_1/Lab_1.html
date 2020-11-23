@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //--Task1
+        let number, summ=0;
+        number=parseInt(prompt("Введите число:", 10));
+        summ=number*number;
+        console.log(number+"^2= "+summ);
+    </script>
+    <script>
+        //--Task2
+        let number1, number2, sarf=0;
+        number1=parseInt(prompt("Введіть 1-ше число:", 10));
+        number2=parseInt(prompt("Введіть 2-ге число:", 10));
+        sarf=(number1+number2)/2;
+        console.log("Середнє арифметичне = "+sarf);
+    </script>
+    <script>
+        //--Task3
+        let number, square=0;
+        number=parseInt(prompt("Введіть довжину сторони квадрата:", 10));
+        square=number*number;
+        console.log("Площа квадрата = "+square);
+    </script>
+    <script>
+        //--Task4
+        let number, mile=0;
+        number=parseInt(prompt("Введіть кількість кілометрів:", 10));
+        mile=number*0.621371;
+        console.log(number+" км = "+mile+" миль");
+    </script>
+    <script>
+        //--Task5
+        let number1, number2, sum=0, dif=0, prod=0, div=0;
+        number1=parseInt(prompt("Введіть 1-ше число:", 10));
+        number2=parseInt(prompt("Введіть 2-ге число:", 10));
+        sum=number1+number2;
+        dif=number1-number2;
+        prod=number1*number2;
+        div=number1/number2;
+        console.log(number1+" + "+number2+" = "+sum);
+        console.log(number1+" - "+number2+" = "+dif);
+        console.log(number1+" * "+number2+" = "+prod);
+        console.log(number1+" / "+number2+" = "+div);
+    </script>
+    <script>
+        //--Task6
+        let a, b, x=0;
+        a=parseInt(prompt("Введіть a:", 10));
+        b=parseInt(prompt("Введіть b:", 10));
+        x=-b/a;
+        console.log(a+" *x+ "+b+" = 0"+" x="+x);
+    </script>
+    <script>
+        //--Task7
+        let h, m, x=0, y=0;
+        h=parseInt(prompt(`Введіть годину:`, 10));
+        m=parseInt(prompt(`Введіть хвилину:`, 10));
+        x=23-h;
+        y=59-m;
+        console.log(`До завтра залишилося: `+x+`год `+y+`хв`);
+    </script>
+    <script>
+        //--Task8
+        let number, x=0;
+        number=parseInt(prompt(`Введіть число:`, 654));
+        x=(number/10)%10;
+        console.log(`Друга цифра числа `+number+` = `+x.toFixed(0));
+    </script>
+    <script>
+        //--Task9
+        let number, x=0, y=0;
+        number=parseInt(prompt(`Введіть число:`, 12345));
+        x=number/10-1;
+        y=number%10;
+        console.log(y.toFixed(0)+x.toFixed(0));
+    </script>
+    <script>
+        //--Task10
+        let number, x=0;
+        number=parseInt(prompt(`Введіть число:`, 10));
+        x=250+(number/100*10);
+        console.log(`Заробітня плата = `+x);
+    </script>
+        
+</body>
+</html>

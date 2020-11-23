@@ -1,0 +1,49 @@
+.some
+{
+    background: rgb(255, 155, 155);
+    margin-top: 5px;
+    padding-left: 5px;
+    font: 5em Arial,sans-serif;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+
+}
+.first
+{
+    background: rgb(0, 255, 0);
+    margin-top: 5px;
+    padding-left: 5px;
+    font: 3em Arial, sans-serif;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.second
+{
+    background: rgb(253, 174, 2);
+    padding: 3px;
+    margin: 1px;
+    display: inline-block;
+}
+div[data-test="test"]
+{
+
+    margin-top: 5em;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    background: rgb(253, 174, 2);
+}
+#next
+{
+    position: absolute;
+    left: 160px; 
+    top: 50px; 
+    width: 225px; 
+    padding: 5px; 
+}   

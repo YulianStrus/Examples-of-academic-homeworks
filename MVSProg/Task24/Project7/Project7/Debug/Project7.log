@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\mvsprog\task24\project7\project7\source.cpp(10): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  d:\mvsprog\task24\project7\project7\source.cpp(27): note: see reference to function template instantiation 'T MaxNum<int>(T [],int)' being compiled
+          with
+          [
+              T=int
+          ]
+  Project7.vcxproj -> D:\MVSProg\Task24\Project7\Debug\Project7.exe

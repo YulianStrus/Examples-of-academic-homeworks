@@ -1,0 +1,20 @@
+﻿  Source.cpp
+d:\mvsprog\task2\project1\project1\source.cpp(4): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task2\project1\project1\source.cpp(5): warning C4129: '': unrecognized character escape sequence
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2017: illegal escape sequence
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2146: syntax error: missing ';' before identifier 'n'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2065: 'n': undeclared identifier
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2143: syntax error: missing ';' before 'string'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2146: syntax error: missing ';' before identifier 't'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2065: 't': undeclared identifier
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2143: syntax error: missing ';' before 'user-defined string literal'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C3688: invalid literal suffix 'or'; literal operator or literal operator template 'operator ""or' not found
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2143: syntax error: missing ';' before '!'
+d:\mvsprog\task2\project1\project1\source.cpp(5): warning C4552: '!': result of expression not used
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C3688: invalid literal suffix 'to'; literal operator or literal operator template 'operator ""to' not found
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2146: syntax error: missing ';' before identifier 'be'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2065: 'be': undeclared identifier
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2001: newline in constant
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2146: syntax error: missing ';' before identifier 'Shakespeare'
+d:\mvsprog\task2\project1\project1\source.cpp(5): error C2065: 'Shakespeare': undeclared identifier
+d:\mvsprog\task2\project1\project1\source.cpp(6): error C2146: syntax error: missing ';' before identifier 'system'

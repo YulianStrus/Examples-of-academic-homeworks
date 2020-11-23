@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\bin\Debug\FilesNFolder.exe.config
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\bin\Debug\FilesNFolder.exe
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\bin\Debug\FilesNFolder.pdb
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\obj\Debug\FilesNFolder.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\obj\Debug\FilesNFolder.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\obj\Debug\FilesNFolder.exe
+D:\ITStep\C#\DZ_16\FilesNFolder\FilesNFolder\obj\Debug\FilesNFolder.pdb

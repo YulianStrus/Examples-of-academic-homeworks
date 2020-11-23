@@ -1,0 +1,10 @@
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.csprojAssemblyReference.cache
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.Form1.resources
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.Properties.Resources.resources
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.csproj.GenerateResource.cache
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.csproj.CoreCompileInputs.cache
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\bin\Debug\Gallery.exe.config
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\bin\Debug\Gallery.exe
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\bin\Debug\Gallery.pdb
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.exe
+D:\ITStep\C# Form\DZ_02\Gallery\Gallery\obj\Debug\Gallery.pdb

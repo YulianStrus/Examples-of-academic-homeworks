@@ -1,0 +1,13 @@
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\bin\Debug\PropertyChange.exe.config
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\bin\Debug\PropertyChange.exe
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\bin\Debug\PropertyChange.pdb
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\obj\Debug\PropertyChange.csprojResolveAssemblyReference.cache
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\obj\Debug\PropertyChange.exe
+Z:\StudentsFiles\RPZ\RPZ8\Vladyslav_Kugaievskyi\PM.NETTMPC#\DZ13_Event\PropertyChange\PropertyChange\obj\Debug\PropertyChange.pdb
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\bin\Debug\PropertyChange.exe.config
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\bin\Debug\PropertyChange.exe
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\bin\Debug\PropertyChange.pdb
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\obj\Debug\PropertyChange.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\obj\Debug\PropertyChange.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\obj\Debug\PropertyChange.exe
+D:\ITStep\C#\DZ_14\PropertyChanged\PropertyChange\PropertyChange\obj\Debug\PropertyChange.pdb

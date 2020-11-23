@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\bin\Debug\Sereliz.exe.config
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\bin\Debug\Sereliz.exe
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\bin\Debug\Sereliz.pdb
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\obj\Debug\Sereliz.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\obj\Debug\Sereliz.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\obj\Debug\Sereliz.exe
+D:\ITStep\C#\DZ_17\Sereliz\Sereliz\obj\Debug\Sereliz.pdb

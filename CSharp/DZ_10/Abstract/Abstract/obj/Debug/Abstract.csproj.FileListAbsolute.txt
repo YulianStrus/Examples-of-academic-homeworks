@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_10\Abstract\Abstract\bin\Debug\Abstract.exe.config
+D:\ITStep\C#\DZ_10\Abstract\Abstract\bin\Debug\Abstract.exe
+D:\ITStep\C#\DZ_10\Abstract\Abstract\bin\Debug\Abstract.pdb
+D:\ITStep\C#\DZ_10\Abstract\Abstract\obj\Debug\Abstract.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_10\Abstract\Abstract\obj\Debug\Abstract.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_10\Abstract\Abstract\obj\Debug\Abstract.exe
+D:\ITStep\C#\DZ_10\Abstract\Abstract\obj\Debug\Abstract.pdb

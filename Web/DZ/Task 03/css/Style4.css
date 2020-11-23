@@ -1,0 +1,84 @@
+body
+{
+    font: 16pt "Century Gothic", sans-serif;
+    color: white;
+    padding: 20px;
+    background: #f5f5f5;
+}
+footer
+{
+    background: #2a4f6e;
+    padding: 50px;
+}
+.row1
+{
+    background: #2a4f6e;
+    border-bottom: 1px solid white;
+}
+li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.inlineblock1
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.inlineblock2
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+img
+{
+    margin: 20px;
+}
+.row2
+{
+    background: #2a4f6e;
+    text-align: center;
+    font: 10pt "Century Gothic", sans-serif;
+    margin: 20px 0 10px 0;
+}
+.inlineblock1 li span:hover
+{
+    border-bottom: 1px solid white;
+}
+.img_fb
+{
+    background: url(../images/fb_gray.png) no-repeat;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.img_insta
+{
+    background: url(../images/insta_gray.png) no-repeat;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.img_youtube
+{
+    background: url(../images/youtube_gray.png) no-repeat;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+.img_fb:hover
+{
+    background: url(../images/fb.png) no-repeat;
+}
+.img_insta:hover
+{
+    background: url(../images/insta.png) no-repeat;
+}
+.img_youtube:hover
+{
+    background: url(../images/youtube.png) no-repeat;
+}

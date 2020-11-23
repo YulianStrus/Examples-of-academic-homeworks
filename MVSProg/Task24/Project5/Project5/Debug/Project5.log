@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\mvsprog\task24\project5\project5\source.cpp(10): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  d:\mvsprog\task24\project5\project5\source.cpp(26): note: see reference to function template instantiation 'void SymbPunct<int>(T [],int)' being compiled
+          with
+          [
+              T=int
+          ]
+  Project5.vcxproj -> D:\MVSProg\Task24\Project5\Debug\Project5.exe

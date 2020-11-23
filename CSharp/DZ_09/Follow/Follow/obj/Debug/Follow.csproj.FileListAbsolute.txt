@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_09\Follow\Follow\bin\Debug\Follow.exe.config
+D:\ITStep\C#\DZ_09\Follow\Follow\bin\Debug\Follow.exe
+D:\ITStep\C#\DZ_09\Follow\Follow\bin\Debug\Follow.pdb
+D:\ITStep\C#\DZ_09\Follow\Follow\obj\Debug\Follow.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_09\Follow\Follow\obj\Debug\Follow.exe
+D:\ITStep\C#\DZ_09\Follow\Follow\obj\Debug\Follow.pdb
+D:\ITStep\C#\DZ_09\Follow\Follow\obj\Debug\Follow.csprojAssemblyReference.cache

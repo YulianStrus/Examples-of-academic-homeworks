@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\mvsprog\task16\project3\project3\source.cpp(6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project3.vcxproj -> D:\MVSProg\Task16\Project3\Debug\Project3.exe

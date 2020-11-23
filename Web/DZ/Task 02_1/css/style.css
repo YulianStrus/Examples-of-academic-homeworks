@@ -1,0 +1,52 @@
+.div1
+{
+    background: url(https://millionstatusov.ru/pic/statpic/all/58e5ef4cedd33.jpg);
+    height: 100%; 
+    width: 700px;
+    padding: 0.75em;
+    margin: 1em;
+    border: 50px solid black;
+    border-image: url(http://gif-kartinki.ru/ramki/azhurnaja-ramka.png) 50 round;
+    border-right: 0;
+    border-left: 0;
+    border-top-left-radius: 10em 1em;
+    border-top-right-radius: 10em 1em;
+    border-bottom-left-radius: 5em 5em;
+    border-bottom-right-radius: 5em 5em;
+    background-clip: content-box;
+}
+.div2
+{
+    background: rgb(55,155,55);
+    height: auto;
+    width: 750px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    outline: 1px solid blue;
+}
+.div3
+{
+    background: rgba(100,100,200,10);
+    border: 1px solid white;
+    padding: 5px;
+    width: 650px;
+    height: 70px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.ul1 
+{
+    list-style: none;
+}
+.li1
+{
+    border-bottom: 2px solid black;
+    width: 750px;
+}
+.ul1 li:before 
+{
+    content: url("https://img.icons8.com/wired/16/000000/chevron-right.png");
+}

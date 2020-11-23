@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\bin\Debug\GeometricFigure.exe.config
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\bin\Debug\GeometricFigure.exe
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\bin\Debug\GeometricFigure.pdb
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\obj\Debug\GeometricFigure.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\obj\Debug\GeometricFigure.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\obj\Debug\GeometricFigure.exe
+D:\ITStep\C#\DZ_12\GeometricFigure\GeometricFigure\obj\Debug\GeometricFigure.pdb

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">StrusFinalProg</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="textView">text_view</string>
+    <string name="button_selling">Продати</string>
+    <string name="button_buy">Купити</string>
+    <string name="rub">rub</string>
+    <string name="usd">usd</string>
+    <string name="eur">eur</string>
+    <string name="but_maps">butMaps</string>
+    <string name="but_close">but_close</string>
+    <string name="but_convert">butConvert</string>
+    <string name="butte">butTE</string>
+    <string name="search">Пошук:</string>
+    <string name="but_search">but_search</string>
+    <string name="but_home">but_home</string>
+</resources>

@@ -1,0 +1,6 @@
+D:\ITStep\C#\Exam\Market\Market\bin\Debug\Market.exe.config
+D:\ITStep\C#\Exam\Market\Market\bin\Debug\Market.exe
+D:\ITStep\C#\Exam\Market\Market\bin\Debug\Market.pdb
+D:\ITStep\C#\Exam\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+D:\ITStep\C#\Exam\Market\Market\obj\Debug\Market.exe
+D:\ITStep\C#\Exam\Market\Market\obj\Debug\Market.pdb

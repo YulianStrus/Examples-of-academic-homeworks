@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Внутренний JavaScript</title>
+</head>
+<body>
+<!--Task 1-->
+    <script>
+		let Name;
+		Name=prompt("Як тебе звати?", Name);
+		alert("Привіт "+Name);
+	</script>
+<!--Task 2-->
+	<script>
+		let year, age;
+		year=parseInt(prompt("Рік народження: ", 1990));
+		age=2019-year;
+		console.log('Твій вік: '+age+' років');
+	</script>
+<!--Task 3-->
+	<script>
+		let P, a;
+		a=parseInt(prompt("Введіть сторону квадрата: ", 10));
+		P=a*4;
+		console.log('Периметр квадрата= '+P+' см');
+	</script>
+<!--Task 4-->
+	<script>
+		let S=0, r;
+		r=parseInt(prompt("Введіть радіус кола: ", 10));
+		S=3.14*(r*r);
+		console.log('Площа кола= '+S+' см2');
+	</script>
+<!--Task 5-->
+	<script>
+		let V, a, h;
+		a=parseInt(prompt("Введіть відстань між містами: ", 100));
+		h=parseInt(prompt("Введіть бажаний час в дорозі: ", 5));
+		V=a/h;
+		console.log('Необхідна середня швидкість= '+V+' км/год');
+	</script>
+<!--Task 6-->
+	<script>
+		let USD, EUR;
+		USD=parseInt(prompt("Введіть відстань між містами: ", 100));
+		EUR=USD*0.87932;
+		console.log(USD+' USD = '+EUR+' EUR');
+	</script>
+<!--Task 7-->
+	<script>
+		let Gb, k, kilk;
+		Gb=parseInt(prompt("Введіть об'єм флешки: Гб", 64));
+		kilk=Gb*1024/820;
+		k=Math.trunc(kilk);
+		console.log('На флешку поміщається = '+k.toFixed(0)+' файлів');
+	</script>
+<!--Task 8-->
+	<script>
+		let sum, cina, k, kilk, ost;
+		sum=parseInt(prompt("Введіть кількість грошей", 100));
+		cina=parseInt(prompt("Введіть ціну шоколадки", 25));
+		kilk=sum/cina;
+		k=Math.trunc(kilk);
+		ost=sum-(k*cina);
+		console.log('Можна купити '+k.toFixed(0)+' шоколадок і ще '+ost+'грн. залишиться');
+	</script>
+<!--Task 9-->
+	<script>
+		let a, b, c, num, temp;
+		num=parseInt(prompt("Введіть трьохзначне число: ", 123));
+		temp=num/100;
+		a=Math.trunc(temp);
+		temp=(num-a*100)/10;
+		b=Math.trunc(temp);
+		temp=num-(a*100+b*10);
+		c=Math.trunc(temp);
+		console.log(`Обернене число=`+c+b+a);
+	</script>
+<!--Task 10-->
+	<script>
+		let num;
+		num=parseInt(prompt("Введіть число: ", 10));
+		console.log(num% 2 == 0) ? true : false;
+	</script>
+
+</body>
+</html>

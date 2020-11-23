@@ -1,0 +1,9 @@
+﻿  main.cpp
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(51): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(75): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(81): warning C4309: инициализация: усечение константного значения
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(113): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(114): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(115): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\itstep\mvsprog\kursplusplus_strus\curve\curve\main.cpp(180): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Curve.vcxproj -> D:\ITStep\MVSProg\KursPlusPlus_Strus\Curve\Debug\Curve.exe

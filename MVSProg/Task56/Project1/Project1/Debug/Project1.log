@@ -1,0 +1,8 @@
+﻿  Main.cpp
+d:\mvsprog\task56\project1\project1\main.cpp(166): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\mvsprog\task56\project1\project1\main.cpp(99): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  d:\mvsprog\task56\project1\project1\main.cpp(97): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\mvsprog\task56\project1\project1\main.cpp(186): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Array<int>::RemoveAll(void)"
+  d:\mvsprog\task56\project1\project1\main.cpp(169): note: выполняется компиляция ссылки на экземпляр шаблон класс "Array<int>"
+d:\mvsprog\task56\project1\project1\main.cpp(119): warning C4715: Array<int>::operator[]: значение возвращается не при всех путях выполнения
+  Project1.vcxproj -> D:\MVSProg\Task56\Project1\Debug\Project1.exe

@@ -1,0 +1,28 @@
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe.config
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.pdb
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csprojAssemblyReference.cache
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Form1.resources
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Properties.Resources.resources
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csproj.GenerateResource.cache
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csproj.CoreCompileInputs.cache
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.exe
+D:\Навчання\ORDZVWF\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.pdb
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe.config
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.exe
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.pdb
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.pdb
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csprojResolveAssemblyReference.cache
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Form1.resources
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Properties.Resources.resources
+D:\Kugaievskyi\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csproj.GenerateResource.Cache
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.exe
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.pdb
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe.config
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.exe
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\bin\Debug\Declaration.pdb
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csprojAssemblyReference.cache
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Form1.resources
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.Properties.Resources.resources
+D:\ITStep\C# Form\DZ_03\Declaration\DZ3_Declaration\Declaration\Declaration\obj\Debug\Declaration.csproj.GenerateResource.cache

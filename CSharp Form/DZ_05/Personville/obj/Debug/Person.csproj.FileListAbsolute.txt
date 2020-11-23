@@ -1,0 +1,24 @@
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\bin\Debug\Personville.exe.config
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\bin\Debug\Personville.exe
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\bin\Debug\Personville.pdb
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Person.csprojAssemblyReference.cache
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.Form1.resources
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.Form2.resources
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.Properties.Resources.resources
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.Show.resources
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Person.csproj.GenerateResource.cache
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Person.csproj.CoreCompileInputs.cache
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.exe
+d:\ITStep\KDZG\winform\DZ5_AddForm1_1568743700\DZ5_AddForm\Personville\Personville\obj\Debug\Personville.pdb
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Person.csprojAssemblyReference.cache
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.Form1.resources
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.Form2.resources
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.Properties.Resources.resources
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.Show.resources
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Person.csproj.GenerateResource.cache
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Person.csproj.CoreCompileInputs.cache
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.exe
+d:\ITStep\C# Form\DZ_05\Person\Personville\obj\Debug\Personville.pdb
+d:\ITStep\C# Form\DZ_05\Person\Personville\bin\Debug\Personville.exe.config
+d:\ITStep\C# Form\DZ_05\Person\Personville\bin\Debug\Personville.exe
+d:\ITStep\C# Form\DZ_05\Person\Personville\bin\Debug\Personville.pdb

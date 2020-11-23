@@ -1,0 +1,14 @@
+D:\ITStep\C#\DZ_19\Organizer\Organizer\bin\Debug\Organizer.exe.config
+D:\ITStep\C#\DZ_19\Organizer\Organizer\bin\Debug\Organizer.exe
+D:\ITStep\C#\DZ_19\Organizer\Organizer\bin\Debug\Organizer.pdb
+D:\ITStep\C#\DZ_19\Organizer\Organizer\obj\Debug\Organizer.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_19\Organizer\Organizer\obj\Debug\Organizer.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_19\Organizer\Organizer\obj\Debug\Organizer.exe
+D:\ITStep\C#\DZ_19\Organizer\Organizer\obj\Debug\Organizer.pdb
+D:\ITStep\C#\DZ_20\Organizer\Organizer\bin\Debug\Organizer.exe.config
+D:\ITStep\C#\DZ_20\Organizer\Organizer\bin\Debug\Organizer.exe
+D:\ITStep\C#\DZ_20\Organizer\Organizer\bin\Debug\Organizer.pdb
+D:\ITStep\C#\DZ_20\Organizer\Organizer\obj\Debug\Organizer.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_20\Organizer\Organizer\obj\Debug\Organizer.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_20\Organizer\Organizer\obj\Debug\Organizer.exe
+D:\ITStep\C#\DZ_20\Organizer\Organizer\obj\Debug\Organizer.pdb

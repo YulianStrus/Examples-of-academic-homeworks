@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maket flex</title>
+    <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-------- NavBar ------------->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand">
+    <img src="http://cdn.onlinewebfonts.com/svg/img_432794.png" alt="Pic" width="100px"></a>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Товари <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Підтримка</a>
+        </ul>
+        <form action='index.html' class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Пошук" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="search">Знайти</button>
+        </form>
+        <button class="cart btn btn-outline-dark"> <i class="material-icons" >
+shopping_cart
+        </i>Корзина</button>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+  <!-------- Left filter ------------->
+  <div class="conteiner">
+    <div class="row">
+      <div class="col-2 goods-card-block">
+        <div class="filtr">
+          <label for="subscribe">
+   <div class="border-bottom"><h2>Фільтр:</h2></div>
+   <div class="mt-2"><h5><strong>Моделі:</strong><h5/>
+   </div>
+   <div class="custom-control custom-checkbox">
+     <div> <input type="checkbox" class="custom-control-input" id="1customCheck1"><label class="custom-control-label" for="1customCheck1"> Серія ZenBook</div>
+   <div><input type="checkbox" class="custom-control-input" id="1customCheck2"><label class="custom-control-label" for="1customCheck2"> Серія VivoBook</div>
+   <div><input type="checkbox" class="custom-control-input" id="1customCheck3"><label class="custom-control-label" for="1customCheck3"> Серія ASUS Laptop</div>
+   <div><input type="checkbox" class="custom-control-input" id="1customCheck4"><label class="custom-control-label" for="1customCheck4"> Ігрові ROG</div>
+   <div><input type="checkbox" class="custom-control-input" id="1customCheck5"><label class="custom-control-label" for="1customCheck5"> Серія FX / ZX</div>
+   <div><input type="checkbox" class="custom-control-input" id="1customCheck6"><label class="custom-control-label" for="1customCheck6"> Серія TUF Gaming</label></div>
+      </div>
+     
+     <div class="mt-2 border-top"><h5><strong>Рік:</strong><h5/>
+   </div>
+   <div class="custom-control custom-checkbox">
+     <div> <input type="checkbox" class="custom-control-input" id="2customCheck1"><label class="custom-control-label" for="2customCheck1">2019</div>
+   <div><input type="checkbox" class="custom-control-input" id="2customCheck2"><label class="custom-control-label" for="2customCheck2"> 2018</div>
+   <div><input type="checkbox" class="custom-control-input" id="2customCheck3"><label class="custom-control-label" for="2customCheck3">2017</div>
+   <div><input type="checkbox" class="custom-control-input" id="2customCheck4"><label class="custom-control-label" for="2customCheck4">2016</div>
+      </div>
+  <div class="mt-2 border-top"><h5><strong>Тип:</strong><h5/>
+   </div>
+   <div class="custom-control custom-checkbox">
+     <div> <input type="checkbox" class="custom-control-input" id="3customCheck1"><label class="custom-control-label" for="3customCheck1">Для нескладних завдань</div>
+   <div><input type="checkbox" class="custom-control-input" id="3customCheck2"><label class="custom-control-label" for="3customCheck2">Універсальні</div>
+   <div><input type="checkbox" class="custom-control-input" id="3customCheck3"><label class="custom-control-label" for="3customCheck3">Для бізнесу</div>
+   <div><input type="checkbox" class="custom-control-input" id="3customCheck4"><label class="custom-control-label" for="3customCheck4">Тонкі та легкі</div>
+   <div><input type="checkbox" class="custom-control-input" id="3customCheck5"><label class="custom-control-label" for="3customCheck5">Геймерські ноутбуки</div>
+      </div>   
+    </div>
+  </div>
+
+  <!-------- main name ------------->
+  <div class="col-10 pl-5">
+    <div class="shop">
+      <span class="float-right m-2"><i class="material-icons m-2">
+phone_in_talk
+</i> (067)-1234567 <span><i class="material-icons m-2">
+voice_chat
+</i>(050)-9876543 </span></span>
+    <h2>Ноутбуки</h2> <label for="filtr">
+      <div>Фільтр</label>
+    <select id="filtr" name="filtr">
+      <option value="popular">За популярністю</option>
+      <option value="new">Новинки</option>
+      <option value="LowToHight">По ціні: за зростанням</option>
+      <option value="HightToLow">По ціні: за спаданням</option>
+    </select></div></div>      
+    
+
+    <!-------- card coods ------------>
+    <div class="row text-center m-1 goods-card-block">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2 prdct-list">
+        <a href="#"><img id="FX505GE-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/11459739/asus_90nr00s2_m07930_images_11459739206.jpg" data-toggle="modal" data-target="#myModalImage1" alt="FX505"></a>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModalImage1">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title">Asus TUF Gaming FX505GE-BQ371 (90NR00S2-M07930) Black </h3>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <img id="FX505GE-mod" class="ml-5" src="https://i2.rozetka.ua/goods/11459739/asus_90nr00s2_m07930_images_11459739206.jpg" alt="FX505">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3> Asus TUF Gaming FX505GE-BQ371 (90NR00S2-M07930) Black</h3>
+          <div class="price">26 999 грн</div>
+          <div class="price_new">25 999 грн</div>
+          <a href="#" class="btn1">В корзину</a>
+          <div> <a href="#" class="btn2">В 1 клік</a></div>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal1">
+  <i class="material-icons">
+add_circle_outline
+</i> Детальніше
+  </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">Asus TUF Gaming FX505GE-BQ371 (90NR00S2-M07930) Black </h3>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <div class="col-4 modal-grid-border">Процесор</div>
+                  <div class="col-8 modal-grid-border">Чотириядерний Intel Core i5-8300H (2.3 - 4.0 ГГц)</div>
+                  <div class="col-4 modal-grid-border">Діагональ екрана</div>
+                  <div class="col-8 modal-grid-border">15.6" (1920x1080) Full HD</div>
+                  <div class="col-4 modal-grid-border">Обсяг оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border"> 8 ГБ</div>
+                  <div class="col-4 modal-grid-border">Операційна система</div>
+                  <div class="col-8 modal-grid-border">Без ОС</div>
+                  <div class="col-4 modal-grid-border">Покоління процесора Intel</div>
+                  <div class="col-8 modal-grid-border">8-е Coffee Lake</div>
+                  <div class="col-4 modal-grid-border">Колір</div>
+                  <div class="col-8 modal-grid-border">Чорний</div>
+                  <div class="col-4 modal-grid-border">Клавіатура</div>
+                  <div class="col-8 modal-grid-border">З підсвіткою</div>
+                  <div class="col-4 modal-grid-border">Оптичний привод</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Об'єм накопичувача</div>
+                  <div class="col-8 modal-grid-border">1 ТБ</div>
+                  <div class="col-4 modal-grid-border">Українська розкладка клавіатури</div>
+                  <div class="col-8 modal-grid-border">З</div>
+                  <div class="col-4 modal-grid-border">Кількість слотів для оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">2</div>
+                  <div class="col-4 modal-grid-border">Батарея</div>
+                  <div class="col-8 modal-grid-border">Незнімна</div>
+                  <div class="col-4 modal-grid-border">Вага</div>
+                  <div class="col-8 modal-grid-border">2.2 кг</div>
+                  <div class="col-4 modal-grid-border">Тип оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">DDR4-2666 МГц</div>
+                  <div class="col-4 modal-grid-border">Додаткові можливості</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Веб-камера HD 720p</p>
+                    <p>Вбудований мікрофон</p>
+                    <p>Вбудовані динаміки</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Чипсет</div>
+                  <div class="col-8 modal-grid-border">Intel HM370 Express</div>
+                  <div class="col-4 modal-grid-border">Графічний адаптер</div>
+                  <div class="col-8 modal-grid-border">Дискретний, nVidia GeForce GTX 1050 Ti, 4 ГБ виділеної пам'яті</div>
+                  <div class="col-4 modal-grid-border">Мережеві адаптери</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Wi-Fi 802.11ac</p>
+                    <p>Bluetooth 5.0</p>
+                    <p>Gigabit Ethernet</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Роз'єми та порти введення-виведення</div>
+                  <div class="col-8 modal-grid-border">
+                    1 x USB 2.0/2 x USB 3.1 Type A (5 Гбіт/сек)/HDMI/LAN (RJ-45)/комбінований аудіороз'єм для навушників/мікрофона</div>
+                  <div class="col-4 modal-grid-border">Характеристики батареї</div>
+                  <div class="col-8 modal-grid-border">3-коміркова, 48 Вт*год</div>
+                  <div class="col-4 modal-grid-border">Габарити (Ш х Г х В)</div>
+                  <div class="col-8 modal-grid-border">360.4 x 262 x 26.8 мм</div>
+                  <div class="col-4 modal-grid-border">Комплект постачання</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Ноутбук</p>
+                    <p>Адаптер живлення</p>
+                    <p>Документація</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Країна реєстрації бренду</div>
+                  <div class="col-8 modal-grid-border">Тайвань</div>
+                  <div class="col-4 modal-grid-border">Гарантія</div>
+                  <div class="col-8 modal-grid-border">24 місяці</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn1">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2 prdct-list">
+        <a href="#"><img id="UX333FN-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/11471808/copy_asus_90nb0jw1_m02880_5c99f119b7378_images_11471808812.jpg" data-toggle="modal" data-target="#myModalImage2" alt="UX333FN"></a>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModalImage2">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title">ASUS ZenBook 13 UX333FN-A3107T (90NB0JW1-M02900) Royal Blue</h3>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <img id="UX333FN-mod" class="ml-5" src="https://i2.rozetka.ua/goods/11471808/copy_asus_90nb0jw1_m02880_5c99f119b7378_images_11471808812.jpg" alt="UX333FN">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>ASUS ZenBook 13 UX333FN-A3107T (90NB0JW1-M02900) Royal Blue</h3>
+          <div class="price_new">40 499 грн</div>
+          <a href="#" class="btn1">В корзину</a>
+          <div> <a href="#" class="btn2">В 1 клік</a></div>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal2">
+  <i class="material-icons">
+add_circle_outline
+</i> Детальніше
+  </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal2">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">ASUS ZenBook 13 UX333FN-A3107T (90NB0JW1-M02900) Royal Blue</h3>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <div class="col-4 modal-grid-border">Процесор</div>
+                  <div class="col-8 modal-grid-border">Чотириядерний Intel Core i7-8565U (1.8 - 4.6 ГГц)</div>
+                  <div class="col-4 modal-grid-border">Діагональ екрана</div>
+                  <div class="col-8 modal-grid-border">13.3" (1920х1080) Full HD</div>
+                  <div class="col-4 modal-grid-border">Обсяг оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border"> 8 ГБ</div>
+                  <div class="col-4 modal-grid-border">Операційна система</div>
+                  <div class="col-8 modal-grid-border">Windows 10 Home</div>
+                  <div class="col-4 modal-grid-border">Покоління процесора Intel</div>
+                  <div class="col-8 modal-grid-border">8-е Whiskey Lake</div>
+                  <div class="col-4 modal-grid-border">Колір</div>
+                  <div class="col-8 modal-grid-border">Синій</div>
+                  <div class="col-4 modal-grid-border">Клавіатура</div>
+                  <div class="col-8 modal-grid-border">З підсвіткою</div>
+                  <div class="col-4 modal-grid-border">Оптичний привод</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Об'єм накопичувача</div>
+                  <div class="col-8 modal-grid-border">512 ГБ SSD</div>
+                  <div class="col-4 modal-grid-border">Українська розкладка клавіатури</div>
+                  <div class="col-8 modal-grid-border">З</div>
+                  <div class="col-4 modal-grid-border">Кількість слотів для оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Батарея</div>
+                  <div class="col-8 modal-grid-border">Незнімна</div>
+                  <div class="col-4 modal-grid-border">Вага</div>
+                  <div class="col-8 modal-grid-border">1.09 кг</div>
+                  <div class="col-4 modal-grid-border">Тип оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">LPDDR3-2133 МГц</div>
+                  <div class="col-4 modal-grid-border">Додаткові можливості</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Веб-камера</p>
+                    <p>Вбудований мікрофон</p>
+                    <p>Вбудовані динаміки</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Графічний адаптер</div>
+                  <div class="col-8 modal-grid-border">Дискретний, nVidia GeForce MX150, 2 ГБ виділеної пам'яті</div>
+                  <div class="col-4 modal-grid-border">Мережеві адаптери</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Wi-Fi 802.11ac</p>
+                    <p>Bluetooth 5.0</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Роз'єми та порти введення-виведення</div>
+                  <div class="col-8 modal-grid-border">1 x USB 3.1 Type A (10 Гбіт/сек)/1 x USB 3.1 Type-C (10 Гбіт/сек)/1 х USB 2.0/HDMI/комбінований аудіороз'єм для навушників/мікрофона/кардридер</div>
+                  <div class="col-4 modal-grid-border">Характеристики батареї</div>
+                  <div class="col-8 modal-grid-border">3-коміркова, 50 Вт*год</div>
+                  <div class="col-4 modal-grid-border">Габарити (Ш х Г х В)</div>
+                  <div class="col-8 modal-grid-border">302.9 x 189 x 16.9 мм</div>
+                  <div class="col-4 modal-grid-border">Комплект постачання</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Ноутбук</p>
+                    <p>Адаптер живлення</p>
+                    <p>Чохол</p>
+                    <p>Перехідник USB 3.0 - RJ-45</p>
+                    <p>Документація</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Країна реєстрації бренду</div>
+                  <div class="col-8 modal-grid-border">Тайвань</div>
+                  <div class="col-4 modal-grid-border">Гарантія</div>
+                  <div class="col-8 modal-grid-border">24 місяці</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn1">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2 prdct-list">
+        <a href="#"><img id="UX580GE-img" class="img-fluid p-2" src="https://i1.rozetka.ua/goods/11244536/asus_90nb0i83_m03130_images_11244536292.jpg" data-toggle="modal" data-target="#myModalImage3" alt="UX580GE"></a>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModalImage3">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title">Asus ZenBook Pro 15 UX580GE-BN070T (90NB0I83-M03130) Deep Dive Blue</h3>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <img id="UX580GE-mod" class="ml-5" src="https://i1.rozetka.ua/goods/11244536/asus_90nb0i83_m03130_images_11244536292.jpg" alt="UX580GE">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3> Asus ZenBook Pro 15 UX580GE-BN070T (90NB0I83-M03130) Deep Dive Blue</h3>
+          <div class="price_new">59 699 грн</div>
+          <a href="#" class="btn1">В корзину</a>
+          <div> <a href="#" class="btn2">В 1 клік</a></div>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal3">
+  <i class="material-icons">
+add_circle_outline
+</i> Детальніше
+  </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal3">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">Asus ZenBook Pro 15 UX580GE-BN070T (90NB0I83-M03130) Deep Dive Blue</h3>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <div class="col-4 modal-grid-border">Процесор</div>
+                  <div class="col-8 modal-grid-border">Шестиядерний Intel Core i7-8750H (2.2 - 4.1 ГГц)</div>
+                  <div class="col-4 modal-grid-border">Діагональ екрана</div>
+                  <div class="col-8 modal-grid-border">15.6" (1920x1080) Full HD</div>
+                  <div class="col-4 modal-grid-border">Обсяг оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">16 ГБ</div>
+                  <div class="col-4 modal-grid-border">Операційна система</div>
+                  <div class="col-8 modal-grid-border">Windows 10 Home</div>
+                  <div class="col-4 modal-grid-border">Покоління процесора Intel</div>
+                  <div class="col-8 modal-grid-border">8-е Coffee Lake</div>
+                  <div class="col-4 modal-grid-border">Колір</div>
+                  <div class="col-8 modal-grid-border">Синій</div>
+                  <div class="col-4 modal-grid-border">Клавіатура</div>
+                  <div class="col-8 modal-grid-border">З підсвіткою</div>
+                  <div class="col-4 modal-grid-border">Оптичний привод</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Об'єм накопичувача</div>
+                  <div class="col-8 modal-grid-border">1 ТБ SSD</div>
+                  <div class="col-4 modal-grid-border">Українська розкладка клавіатури</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Батарея</div>
+                  <div class="col-8 modal-grid-border">Незнімна</div>
+                  <div class="col-4 modal-grid-border">Вага</div>
+                  <div class="col-8 modal-grid-border">1.88 кг</div>
+                  <div class="col-4 modal-grid-border">Тип оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">DDR4-2400 МГц</div>
+                  <div class="col-4 modal-grid-border">Додаткові можливості</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Веб-камера VGA</p>
+                    <p>Вбудований мікрофон</p>
+                    <p>Вбудовані динаміки</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Чипсет</div>
+                  <div class="col-8 modal-grid-border">Intel HM370 Express</div>
+                  <div class="col-4 modal-grid-border">Графічний адаптер</div>
+                  <div class="col-8 modal-grid-border">Дискретний, nVidia GeForce GTX 1050 Ti, 4 ГБ виділеної пам'яті</div>
+                  <div class="col-4 modal-grid-border">Мережеві адаптери</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Wi-Fi 802.11ac</p>
+                    <p>Bluetooth 5.0</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Роз'єми та порти введення-виведення</div>
+                  <div class="col-8 modal-grid-border">2 x USB 3.0/2 x USB 3.1 Type-C (10 Гбіт/сек) з підтримкою Thunderbolt/HDMI/комбінований аудіороз'єм для навушників і мікрофона/кардридер microSD</div>
+                  <div class="col-4 modal-grid-border">Характеристики батареї</div>
+                  <div class="col-8 modal-grid-border">8-коміркова, 71 Вт*год</div>
+                  <div class="col-4 modal-grid-border">Габарити (Ш х Г х В)</div>
+                  <div class="col-8 modal-grid-border">365 x 241 x 18.9 мм</div>
+                  <div class="col-4 modal-grid-border">Комплект постачання</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Ноутбук</p>
+                    <p>Адаптер живлення</p>
+                    <p>Перехідник USB 3.0 - LAN (RJ-45)</p>
+                    <p>Документація</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Країна реєстрації бренду</div>
+                  <div class="col-8 modal-grid-border">Тайвань</div>
+                  <div class="col-4 modal-grid-border">Гарантія</div>
+                  <div class="col-8 modal-grid-border">24 місяці</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn1">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2 prdct-list">
+        <a href="#"><img id="GL503GE-img" class="img-fluid p-2" src="https://i1.rozetka.ua/goods/10842502/asus_rog_strix_gl503ge_en049t_90nr0084_m00600_images_10842502893.jpg" data-toggle="modal" data-target="#myModalImage4" alt="GL503GE"></a>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModalImage4">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title"> Asus ROG Strix GL503GE-EN049T (90NR0084-M00600) Hero Monster Scale</h3>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <img id="GL503GE-mod" class="ml-5" src="https://i1.rozetka.ua/goods/10842502/asus_rog_strix_gl503ge_en049t_90nr0084_m00600_images_10842502893.jpg" alt="GL503GE">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3> Asus ROG Strix GL503GE-EN049T (90NR0084-M00600) Hero Monster Scale</h3>
+          <div class="price_new">35 999 грн</div>
+          <a href="#" class="btn1">В корзину</a>
+          <div> <a href="#" class="btn2">В 1 клік</a></div>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal4">
+  <i class="material-icons">
+add_circle_outline
+</i> Детальніше
+  </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal4">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">Asus ROG Strix GL503GE-EN049T (90NR0084-M00600) Hero Monster Scale</h3>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <div class="col-4 modal-grid-border">Процесор</div>
+                  <div class="col-8 modal-grid-border">Чотириядерний Intel Core i5-8300H (2.3 - 4.0 ГГц)</div>
+                  <div class="col-4 modal-grid-border">Діагональ екрана</div>
+                  <div class="col-8 modal-grid-border">15.6" (1920x1080) Full HD</div>
+                  <div class="col-4 modal-grid-border">Частота оновлення екрана</div>
+                  <div class="col-8 modal-grid-border">120 Гц</div>
+                  <div class="col-4 modal-grid-border">Обсяг оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border"> 16 ГБ</div>
+                  <div class="col-4 modal-grid-border">Операційна система</div>
+                  <div class="col-8 modal-grid-border">Windows 10 Home</div>
+                  <div class="col-4 modal-grid-border">Покоління процесора Intel</div>
+                  <div class="col-8 modal-grid-border">8-е Coffee Lake</div>
+                  <div class="col-4 modal-grid-border">Колір</div>
+                  <div class="col-8 modal-grid-border">Чорний</div>
+                  <div class="col-4 modal-grid-border">Клавіатура</div>
+                  <div class="col-8 modal-grid-border">З підсвіткою</div>
+                  <div class="col-4 modal-grid-border">Оптичний привод</div>
+                  <div class="col-8 modal-grid-border">Немає</div>
+                  <div class="col-4 modal-grid-border">Об'єм накопичувача</div>
+                  <div class="col-8 modal-grid-border">1 ТБ + SSD 128 ГБ</div>
+                  <div class="col-4 modal-grid-border">Українська розкладка клавіатури</div>
+                  <div class="col-8 modal-grid-border">З</div>
+                  <div class="col-4 modal-grid-border">Кількість слотів для оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">2</div>
+                  <div class="col-4 modal-grid-border">Батарея</div>
+                  <div class="col-8 modal-grid-border">Незнімна</div>
+                  <div class="col-4 modal-grid-border">Вага</div>
+                  <div class="col-8 modal-grid-border">2.6 кг</div>
+                  <div class="col-4 modal-grid-border">Тип оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">DDR4-2666 МГц</div>
+                  <div class="col-4 modal-grid-border">Додаткові можливості</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Веб-камера HD 720p</p>
+                    <p>Вбудований мікрофон</p>
+                    <p>Вбудовані динаміки</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Чипсет</div>
+                  <div class="col-8 modal-grid-border">Intel HM370 Express</div>
+                  <div class="col-4 modal-grid-border">Графічний адаптер</div>
+                  <div class="col-8 modal-grid-border">Дискретний, nVidia GeForce GTX 1050 Ti, 4 ГБ виділеної пам'яті</div>
+                  <div class="col-4 modal-grid-border">Мережеві адаптери</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Wi-Fi 802.11ac</p>
+                    <p>Bluetooth 5.0</p>
+                    <p>Gigabit Ethernet</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Роз'єми та порти введення-виведення</div>
+                  <div class="col-8 modal-grid-border">
+                    1 x Type A 2.0/3 x Type A 3.1 (5 Гбіт/сек)/1 x Type-C 3.1 (10 Гбіт/сек)/HDMI 1.4/1 x Mini Display Port/комбінований аудіороз'єм для навушників/мікрофона/кардридер SD</div>
+                  <div class="col-4 modal-grid-border">Характеристики батареї</div>
+                  <div class="col-8 modal-grid-border">Літій-іонна, 4-осередкова, 64 Вт*год</div>
+                  <div class="col-4 modal-grid-border">Габарити (Ш х Г х В)</div>
+                  <div class="col-8 modal-grid-border">384 x 262 x 24 мм</div>
+                  <div class="col-4 modal-grid-border">Комплект постачання</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Ноутбук</p>
+                    <p>Адаптер живлення</p>
+                    <p>Рюкзак</p>
+                    <p>Миша</p>
+                    <p>Документація</p>
+                    <p>Гарантійний талон</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Країна реєстрації бренду</div>
+                  <div class="col-8 modal-grid-border">Тайвань</div>
+                  <div class="col-4 modal-grid-border">Гарантія</div>
+                  <div class="col-8 modal-grid-border">24 місяці</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn1">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2 prdct-list">
+        <a href="#"><img id="X542UF-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/4731878/asus_x542uf_dm262_images_4731878840.jpg" data-toggle="modal" data-target="#myModalImage5" alt="X542UF"></a>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModalImage5">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title">ASUS VivoBook 15 X542UF-DM262 (90NB0IJ3-M03720) Golden </h3>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <img id="X542UF-mod" class="ml-5" src="https://i2.rozetka.ua/goods/4731878/asus_x542uf_dm262_images_4731878840.jpg" alt="X542UF">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3> ASUS VivoBook 15 X542UF-DM262 (90NB0IJ3-M03720) Golden </h3>
+          <div class="price">16 499 грн</div>
+          <div class="price_new">14 999 грн</div>
+          <a href="#" class="btn1">В корзину</a>
+          <div> <a href="#" class="btn2">В 1 клік</a></div>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal5">
+  <i class="material-icons">
+add_circle_outline
+</i> Детальніше
+  </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal5">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">ASUS VivoBook 15 X542UF-DM262 (90NB0IJ3-M03720) Golden</h3>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="row text-left">
+                  <div class="col-4 modal-grid-border">Процесор</div>
+                  <div class="col-8 modal-grid-border">Двоядерний Intel Core i3-8130U (2.2 - 3.4 ГГц)</div>
+                  <div class="col-4 modal-grid-border">Діагональ екрана</div>
+                  <div class="col-8 modal-grid-border">15.6" (1920x1080) Full HD</div>
+                  <div class="col-4 modal-grid-border">Обсяг оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border"> 8 ГБ</div>
+                  <div class="col-4 modal-grid-border">Операційна система</div>
+                  <div class="col-8 modal-grid-border">Endless OS</div>
+                  <div class="col-4 modal-grid-border">Покоління процесора Intel</div>
+                  <div class="col-8 modal-grid-border">8-е Kaby Lake S</div>
+                  <div class="col-4 modal-grid-border">Колір</div>
+                  <div class="col-8 modal-grid-border">Золотий</div>
+                  <div class="col-4 modal-grid-border">Клавіатура</div>
+                  <div class="col-8 modal-grid-border">Без підсвітки</div>
+                  <div class="col-4 modal-grid-border">Оптичний привод</div>
+                  <div class="col-8 modal-grid-border">DVD Super Multi</div>
+                  <div class="col-4 modal-grid-border">Об'єм накопичувача</div>
+                  <div class="col-8 modal-grid-border">256 ГБ SSD</div>
+                  <div class="col-4 modal-grid-border">Українська розкладка клавіатури</div>
+                  <div class="col-8 modal-grid-border">З</div>
+                  <div class="col-4 modal-grid-border">Кількість слотів для оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">2</div>
+                  <div class="col-4 modal-grid-border">Батарея</div>
+                  <div class="col-8 modal-grid-border">Незнімна</div>
+                  <div class="col-4 modal-grid-border">Вага</div>
+                  <div class="col-8 modal-grid-border">2.3 кг</div>
+                  <div class="col-4 modal-grid-border">Тип оперативної пам'яті</div>
+                  <div class="col-8 modal-grid-border">DDR4-2400 МГц</div>
+                  <div class="col-4 modal-grid-border">Додаткові можливості</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Веб-камера VGA</p>
+                    <p>Вбудований мікрофон</p>
+                    <p>Вбудовані динаміки</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Графічний адаптер</div>
+                  <div class="col-8 modal-grid-border">Дискретний, nVidia GeForce MX130, 2 ГБ виділеної пам'яті GDDR5</div>
+                  <div class="col-4 modal-grid-border">Мережеві адаптери</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Gigabit Ethernet</p>
+                    <p>Wi-Fi 802.11ac</p>
+                    <p>Bluetooth 4.1</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Роз'єми та порти введення-виведення</div>
+                  <div class="col-8 modal-grid-border">1 x USB 2.0/2 x USB 3.0/1 x USB 3.1 Type-C/HDMI/VGA/LAN (RJ-45)/комбінований аудіороз'єм для навушників/мікрофона/кардридер SD</div>
+                  <div class="col-4 modal-grid-border">Характеристики батареї</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Літій-полімерна, 2-осередкова, 38 Вт*год</p>
+                    <p>Швидка зарядка, до 60% за 49 хвилин</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Габарити (Ш х Г х В)</div>
+                  <div class="col-8 modal-grid-border">380 x 251 x 23.2 мм</div>
+                  <div class="col-4 modal-grid-border">Комплект постачання</div>
+                  <div class="col-8 modal-grid-border">
+                    <p>Ноутбук</p>
+                    <p>Адаптер живлення</p>
+                    <p>Документація</p>
+                  </div>
+                  <div class="col-4 modal-grid-border">Країна реєстрації бренду</div>
+                  <div class="col-8 modal-grid-border">Тайвань</div>
+                  <div class="col-4 modal-grid-border">Гарантія</div>
+                  <div class="col-8 modal-grid-border">12 місяці</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn1">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+<!------------ Top goods ----------->
+<div class="app goods-card-block">
+  <h4>Найпопулярніше в категоріі</h4>  
+  <ul class="hs text-center">
+    <li class="item"><a href="#"><img id="x542uf-img" class="img-fluid p-2" src="https://i1.rozetka.ua/goods/4731867/copy_asus_x542uf_dm236_5b151d582aaef_images_4731867960.jpg" data-toggle="modal" data-target="#myModalImage5" alt="x542uf">
+   <div>Ноутбук ASUS VivoBook 15 X542UF-DM261 (90NB0IJ2-M03710) Dark Grey Суперціна!!!
+    <div class="price">17 199 ₴</div>
+      </div>
+      <div class="price_new"><h3>14 999 ₴</div></a>
+   </li>
+    <li class="item"><a href="#"><img id="d540na-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/10642535/asus_d540na_gq211t_images_10642535768.jpg" data-toggle="modal" data-target="#myModalImage4" alt="d540na">
+   <div>Ноутбук Asus VivoBook D540NA-GQ211T (90NB0HG1-M04200) Chocolate Black з Windows 10!
+<div class="price">9 999 ₴</div>
+<div class="price_new"><h3>7 999 ₴</div>
+     </div></a></li>
+    <li class="item"><a href="#"><img id="x540ma-img" class="img-fluid p-2" src="https://i1.rozetka.ua/goods/10641892/asus_x540ma_gq001_images_10641892358.jpg" data-toggle="modal" data-target="#myModalImage2" alt="x540ma">
+   <div>Ноутбук Asus VivoBook X540MA-GQ001 (90NB0IR1-M00110) Chocolate Black Суперціна!!!
+<div class="price">7 799 ₴</div>
+<div class="price_new"><h3>6 499 ₴</div>
+     </div></a></li>
+    <li class="item"><a href="#"><img id="fx505ge-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/12229921/copy_asus_90nr00s3_m03640_5cdd62a3dac4d_images_12229921491.jpg" data-toggle="modal" data-target="#myModalImage5" alt="fx505ge">
+   <div>Ноутбук Asus TUF Gaming FX505GE-BQ134 (90NR00S2-M08060) Black Суперціна!!!
+<div class="price">31 999 ₴</div>
+<div class="price_new"><h3>28 499 ₴</div>         
+     </div></a></li>
+    <li class="item"><a href="#"><img id="fx705ge-img" class="img-fluid p-2" src="https://i2.rozetka.ua/goods/11197099/copy_asus_90nr0112_m01520_5c792465d92e3_images_11197099701.jpg" data-toggle="modal" data-target="#myModalImage4" alt="fx705ge">
+   <div>Ноутбук Asus TUF Gaming FX705GE-EW118 (90NR00Z2-M04460) Black Суперціна!!!
+<div class="price">29 799 ₴</div>
+<div class="price_new"><h3>26 999 ₴</div>
+     </div></a></li>
+    <li class="item"><a href="#"><img id="fx504gm-img" class="img-fluid p-2 top-img" src="https://i2.rozetka.ua/goods/11197687/asus_90nr00q1_m04770_images_11197687521.jpg" data-toggle="modal" data-target="#myModalImage1" alt="fx504gm">
+   <div>Ноутбук ASUS TUF Gaming FX504GM-E4237 (90NR00Q1-M04760) Black Суперціна!!!
+          <div class="price">34 599 ₴</div>
+          <div class="price_new"><h3>31 999 ₴</div>
+     </div></a></li>
+    <li class="item"><a href="#"><img id="X540MA-GQ001-img" class="img-fluid p-2" src="https://i1.rozetka.ua/goods/10641892/asus_x540ma_gq001_images_10641892358.jpg" data-toggle="modal" data-target="#myModalImage2" alt="X540MA-GQ001">
+   <div>Ноутбук Asus VivoBook X540MA-GQ001 (90NB0IR1-M00110) Chocolate Black Суперціна!!!<div class="price">7 799 ₴</div>
+<div class="price_new"><h3>6 499 ₴</div>
+     </div></a></li>
+  </ul>
+</div>
+    </div>
+     
+<!------------ Rewievs ----------->  
+    <fieldset class="mt-4 p-4"><legend>Відгуки про компанію</legend>
+
+<div class="row m-1 goods-card-block">
+  <div class="col-md m-2 top-prdct-list">
+    <strong> Іван Іванович</strong>
+    <div class="col">Цены на сайте актуальные, наличие товара актуальное. Спасибо, всё ок!</div>
+    <form action='index.html'>
+      <div class="border border-dark border-top-0 border-right-0 border-left-0"><fieldset class="rating">
+    <input type="radio" id="1star5" name="rating" value="5" checked /><label class = "full" for="1star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="1star4half" name="rating" value="4 and a half" /><label class="half" for="1star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="1star4" name="rating" value="4" /><label class = "full" for="1star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="1star3half" name="rating" value="3 and a half" /><label class="half" for="1star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="1star3" name="rating" value="3" /><label class = "full" for="1star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="1star2half" name="rating" value="2 and a half" /><label class="half" for="1star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="1star2" name="rating" value="2" /><label class = "full" for="1star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="1star1half" name="rating" value="1 and a half" /><label class="half" for="1star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="1star1" name="rating" value="1" /><label class = "full" for="1star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="1starhalf" name="rating" value="half" /><label class="half" for="1starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+</div>
+</form>
+</div>
+           
+  <div class="col-md m-2 top-prdct-list">
+    <strong> Тарас Петрович</strong>
+    <div class="col">Самая приемлемая цена во всем интернете на мой товар. Сервис на самом высоком уровне: товар после оплаты в тот же день выехал в в мой город. Качество товара как и ожидалось. RESPECT.</div>
+    <form action='index.html'>
+      <div class="border border-dark border-top-0 border-right-0 border-left-0"><fieldset class="rating">
+    <input type="radio" id="2star5" name="rating" value="5" /><label class = "full" for="2star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="2star4half" name="rating" value="4 and a half" checked/><label class="half" for="2star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="2star4" name="rating" value="4" /><label class = "full" for="2star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="2star3half" name="rating" value="3 and a half" /><label class="half" for="2star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="2star2" name="rating" value="2" /><label class = "full" for="2star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="2star1half" name="rating" value="1 and a half" /><label class="half" for="2star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="2star1" name="rating" value="1" /><label class = "full" for="2star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="2starhalf" name="rating" value="half" /><label class="half" for="2starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+</div>
+</form>
+</div>
+             
+  <div class="col-md m-2 top-prdct-list">
+    <strong> Ольга Миколаівна</strong>
+    <div class="col">Работают с предоплатой. Доставка в срок. Менеджер компетентный отвечает на вопроси. Рекомендую.</div>
+    <form action='index.html'>
+      <div class="border border-dark border-top-0 border-right-0 border-left-0"><fieldset class="rating">
+    <input type="radio" id="3star5" name="rating" value="5" checked /><label class = "full" for="3star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="3star4half" name="rating" value="4 and a half" /><label class="half" for="3star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="3star4" name="rating" value="4" /><label class = "full" for="3star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="3star3half" name="rating" value="3 and a half" /><label class="half" for="3star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="3star3" name="rating" value="3" /><label class = "full" for="3star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="3star2half" name="rating" value="2 and a half" /><label class="half" for="3star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="3star2" name="rating" value="2" /><label class = "full" for="3star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="3star1half" name="rating" value="1 and a half" /><label class="half" for="3star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="3star1" name="rating" value="1" /><label class = "full" for="3star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="3starhalf" name="rating" value="half" /><label class="half" for="3starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+</div>
+</form>
+</div>
+           
+  <div class="col-md m-2 top-prdct-list">
+    <strong> Мирон Борисович</strong>
+    <div class="col">сервис на топ уровне, впечетлило их знание о товаре</div>
+    <form action='index.html'>
+      <div class="border border-dark border-top-0 border-right-0 border-left-0"><fieldset class="rating">
+    <input type="radio" id="4star5" name="rating" value="5" /><label class = "full" for="4star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="4star4half" name="rating" value="4 and a half" /><label class="half" for="4star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="4star4" name="rating" value="4" /><label class = "full" for="4star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="4star3half" name="rating" value="3 and a half" /><label class="half" for="4star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="4star3" name="rating" value="3" checked /><label class = "full" for="4star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="4star2half" name="rating" value="2 and a half" /><label class="half" for="4star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="4star2" name="rating" value="2" /><label class = "full" for="4star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="4star1half" name="rating" value="1 and a half" /><label class="half" for="4star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="4star1" name="rating" value="1" /><label class = "full" for="4star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="4starhalf" name="rating" value="half" /><label class="half" for="4starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+</div>
+</form>
+</div>
+  
+  <div class="col-md m-2 top-prdct-list">
+    <strong> Василь Ілліч</strong>
+    <div class="col">Дуже оперативно і чітко працює команда. Менеджер надав повну інформацію, яка мене цікавила. Всім рекомендую.</div>
+    <form action='index.html'>
+      <div class="border border-dark border-top-0 border-right-0 border-left-0"><fieldset class="rating">
+    <input type="radio" id="5star5" name="rating" value="5" /><label class = "full" for="5star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="5star4half" name="rating" value="4 and a half" checked /><label class="half" for="5star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="5star4" name="rating" value="4" /><label class = "full" for="5star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="5star3half" name="rating" value="3 and a half" /><label class="half" for="5star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="5star3" name="rating" value="3" /><label class = "full" for="5star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="5star2half" name="rating" value="2 and a half" /><label class="half" for="5star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="5star2" name="rating" value="2" /><label class = "full" for="5star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="5star1half" name="rating" value="1 and a half" /><label class="half" for="5star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="5star1" name="rating" value="1" /><label class = "full" for="5star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="5starhalf" name="rating" value="half" /><label class="half" for="5starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+</div>
+</form>
+</div>
+           
+  <div class="col-md m-2 top-prdct-list center_center">
+   <a href="#"> <h3><strong> Переглянути всі</strong></h3>
+   <h2> <i class="material-icons md-48">
+exit_to_app
+     </i></h2></a>
+  </div>
+</div>
+</fieldset>
+ <br />
+</div>
+  </div>
+<!-------- footer ------------->
+  <footer>
+    <div class="row">
+      <div class="col-md-6 p-2">
+        <div class="row m-0">
+<!-------- subscribe ----------->
+          <label for="inputEmail3" class="col-sm-3 col-form-label">Нові акції</label>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Ваш Email"></div>
+          <div class="col-sm-3">
+            <button type="submit" class="btn btn-primary">Підписатися</button>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-2">
+<!------------- social --------->
+            <span class="nav-social text-social position-social">
+  <span><a href="#"><i class="fa fa-share m-2" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-rss m-2" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-twitter m-2" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-facebook m-2" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-linkedin m-2" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-instagram m-2" aria-hidden="true"></i></a></span></a>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-2">
+<!---------- copywriting --------->
+            <div class="nav-social position-copywrite">©ASUSTeK Computer Inc. Все права защищены.</div>
+          </div>
+        </div>
+      </div>
+<!------------ maps --------->
+      <div class="col-md-6 p-2">
+        <div class="row m-0">
+          <div class="col-md-6 p-2">
+            <p>
+              <h6>Допомога</h6>
+            </p>
+            <a href="#">
+              <p>Доставка та оплата</p>
+            </a>
+            <a href="#">
+              <p>Кредит</p>
+            </a>
+            <a href="#">
+              <p>Гарантія</p>
+            </a>
+            <a href="#">
+              <p>Повернення товару</p>
+            </a>
+            <a href="#">
+              <p>Сервісні центри</p>
+            </a>
+            <a href="#">
+              <p>Запитання та відповіді</p>
+            </a>
+          </div>
+          <div class="col-md-6 p-2">
+            <p>
+              <h6>Інформація про компанію</h6>
+            </p>
+            <a href="#">
+              <p>Про нас</p>
+            </a>
+            <a href="#">
+              <p>Умови використання сайту</p>
+            </a>
+            <a href="#">
+              <p>Вакансії</p>
+            </a>
+            <a href="#">
+              <p>Контакти</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

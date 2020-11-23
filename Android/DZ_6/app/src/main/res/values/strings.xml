@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnimalSound</string>
+    <string name="imagecat">imageCat</string>
+    <string name="imagechicken">imageChicken</string>
+    <string name="imagesheep">imagesheep</string>
+    <string name="imageduck">imageduck</string>
+    <string name="imagedog">imageDog</string>
+    <string name="imagecow">imageCow</string>
+</resources>

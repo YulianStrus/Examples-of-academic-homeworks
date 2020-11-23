@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_05\Car\Car\bin\Debug\Car.exe.config
+D:\ITStep\C#\DZ_05\Car\Car\bin\Debug\Car.exe
+D:\ITStep\C#\DZ_05\Car\Car\bin\Debug\Car.pdb
+D:\ITStep\C#\DZ_05\Car\Car\obj\Debug\Car.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_05\Car\Car\obj\Debug\Car.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_05\Car\Car\obj\Debug\Car.exe
+D:\ITStep\C#\DZ_05\Car\Car\obj\Debug\Car.pdb

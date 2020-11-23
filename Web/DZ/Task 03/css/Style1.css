@@ -1,0 +1,33 @@
+h2
+{
+    text-align: center;
+    margin: 1.5em;
+    font-family: "Сomic Sans MS", cursive;
+}
+body
+{
+    padding: 0 20px;
+    background: #f6f6f6;
+}
+.content
+{
+    padding: 30px 20px;
+    font-family: "Сomic Sans MS", cursive;
+    max-width: 150px;
+    margin: 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+}
+h3
+{
+    border-top: 1px solid #c8c8c8;
+    font-family: "Сomic Sans MS", cursive;
+    padding: 10px;
+    text-align: center;
+}
+img
+{
+    margin: 0 0 20px 0;
+}

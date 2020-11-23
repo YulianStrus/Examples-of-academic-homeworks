@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_18\Weather\Weather\bin\Debug\Weather.exe.config
+D:\ITStep\C#\DZ_18\Weather\Weather\bin\Debug\Weather.exe
+D:\ITStep\C#\DZ_18\Weather\Weather\bin\Debug\Weather.pdb
+D:\ITStep\C#\DZ_18\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_18\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_18\Weather\Weather\obj\Debug\Weather.exe
+D:\ITStep\C#\DZ_18\Weather\Weather\obj\Debug\Weather.pdb

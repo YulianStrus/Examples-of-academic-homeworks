@@ -1,0 +1,4 @@
+﻿  Task1.cpp
+d:\mvsprog\task4\project17\project17\task1.cpp(4): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task4\project17\project17\task1.cpp(8): warning C4305: '*=': truncation from 'double' to 'float'
+  Project17.vcxproj -> D:\MVSProg\Task4\Project17\Debug\Project17.exe

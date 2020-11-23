@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Внутренний JavaScript</title>
+</head>
+<body>
+<!--Task 1-->
+    <script>
+		let sum=0, a, b;
+		a=parseInt(prompt("Введіть початок діапазону: ", 5));
+		b=parseInt(prompt("Введіть кінець діапазону: ", 25));
+		while(a<=b)
+		{
+      sum+=a;
+      a++;
+    }
+		console.log('Сума чисел діапазону= '+sum);
+	</script>
+<!--Task 2-->
+	<script>
+		let tmp=0, a, b;
+		a=parseInt(prompt("Введіть початок діапазону: ", 5));
+		b=parseInt(prompt("Введіть кінець діапазону: ", 25));
+  while (b !=0) 
+        {
+            tmp = a%b;
+            a = b;
+            b = tmp;
+        }
+console.log('Найбільше спільне кратне= '+a);
+	</script>
+<!--Task 3-->
+	<script>
+		let tmp=0, a, b;
+		a=parseInt(prompt("Введіть початок діапазону: ", 5));
+    b=a;
+  while (b >=1) 
+        {
+          tmp = a%b;
+          if (tmp==0)
+          console.log(b);
+            b--;
+        }
+	</script>
+<!--Task 4-->
+	<script>
+		let tmp=0, a;
+		a=parseInt(prompt("Введіть число: ", 54321));
+  do
+    {
+      a /= 10; 
+      tmp++
+    } 
+    while (a>=1);
+  console.log(tmp);
+
+	</script>
+<!--Task 5-->
+	<script>
+		let a, poz=0, neg=0, nul=0;
+for (let tmp=1; tmp<=10; tmp++)
+{ 
+	a=parseInt(prompt("Введіть число: ", 5));
+  if (a>0) poz++;
+  if (a<0) neg++;
+  if (a==0) nul++;
+}
+
+console.log('Позитивних чисел: '+poz);
+console.log('Негативних чисел: '+neg);
+console.log('Чисел 0: '+nul);
+	</script>
+<!--Task 6-->
+	<script>
+		let a, b, op, rez, k=1, result;
+	
+do
+{  
+  a=parseInt(prompt("Введіть перше число: ", 5));
+  b=parseInt(prompt("Введіть друге число: ", 5));
+  op=prompt("Оберіть операцію (+,-,*,/): ", '+');
+  if (op=='+') rez=a+b;
+  if (op=='-') rez=a-b;
+  if (op=='*') rez=a*b;
+  if (op=='/') rez=a/b;
+  
+  console.log(a+op+b+'='+rez);
+  
+  result=confirm("Бажаєте продовжити?");
+  if(result) k=1;
+  else k=0;
+}
+while (k!=0)
+	</script>
+<!--Task 7-->
+	<script>
+		let num, nums, shift, numStr, arrNum, tmp;
+    num = prompt("Введіть число:", "987654321");
+    shift = parseInt(prompt("Введіть коефіцієнт:", "2"));
+    numStr = num.split("");
+    arrNums = [];
+    for (let k = 0; k < numStr.length; ++k) {
+        arrNums[k] = parseInt(numStr[k]);
+    }
+    for (let i = 0; i < shift; ++i) {
+        temp = arrNums[0];
+        for (let j = 0; j < arrNums.length - 1; ++j) {
+            arrNums[j] = arrNums[j + 1];
+        }
+        arrNums[arrNums.length - 1] = temp;
+    }
+    nums = "";
+    for (let h = 0; h < arrNums.length; ++h) {
+        nums = nums + arrNums[h];
+    }
+    alert(nums);
+	</script>
+<!--Task 8-->
+	<script>
+		let result;	
+do
+{  
+  result=confirm("Понеділок");
+  if(result) 
+  {
+   result=confirm("Вівторок");
+  if(result)
+  { 
+    result=confirm("Середа");
+  if(result)
+  { 
+    result=confirm("Четвер");
+  if(result)
+  { 
+    result=confirm("П'ятниця");
+  if(result)
+  { 
+    result=confirm("Субота");
+  if(result)
+  { 
+    result=confirm("Неділя");
+  if(result)
+  { 
+    k=1;
+  }
+  else k=0; 
+  }
+  else k=0; 
+  }
+  else k=0; 
+  }
+  else k=0; 
+  }
+  else k=0; 
+  }
+  else k=0; 
+  }
+  else k=0;
+}
+while (k!=0)
+	</script>
+<!--Task 9-->
+	<script>
+		let a, b, rez;
+	
+for (a=2; a<=9;a++)
+{  
+  for (b=1; b<=10;b++)
+{  
+  rez=a*b;
+  console.log(a+'*'+b+'='+rez)
+}
+  console.log('-----------')
+}
+	</script>
+<!--Task 10-->
+	<script>
+		function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    let number = getRandomIntInclusive(0, 100);
+    let numberUser = -1;
+    while (number != numberUser) {
+        numberUser = parseInt(prompt("Число:"));
+        if (numberUser > number) alert("Менше!");
+        else if (numberUser < number) alert("Більше!");
+        else alert("Перемога!!!");
+    }
+	</script>
+
+</body>
+</html>

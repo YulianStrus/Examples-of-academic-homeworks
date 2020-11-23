@@ -1,0 +1,7 @@
+D:\ITStep\C#\DZ_08\Bank\Bank\bin\Debug\Bank.exe.config
+D:\ITStep\C#\DZ_08\Bank\Bank\bin\Debug\Bank.exe
+D:\ITStep\C#\DZ_08\Bank\Bank\bin\Debug\Bank.pdb
+D:\ITStep\C#\DZ_08\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+D:\ITStep\C#\DZ_08\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ITStep\C#\DZ_08\Bank\Bank\obj\Debug\Bank.exe
+D:\ITStep\C#\DZ_08\Bank\Bank\obj\Debug\Bank.pdb

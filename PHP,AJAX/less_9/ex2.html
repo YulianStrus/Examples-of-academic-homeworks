@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home work 9</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <img src="https://image.flaticon.com/icons/svg/25/25694.svg" alt="HOME" onclick="location.href='index.html'" width="50" height="50">
+    <form action="ex2.php" method="POST">
+        Start date:<br>
+        <input type="date" name="date"><br>
+        Finish date:<br>
+        <input type="date" name="dateTo"><br>
+        <input type="submit" name="submit"><br>
+        
+        <?php $different = new DifferentDate($first,$second); ?>
+    </form>
+</body>
+
+</html>

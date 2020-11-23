@@ -1,0 +1,264 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="130"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="img/logo.png" VerticalAlignment="Top" Margin="10,20,10,10"/>
+
+        <StackPanel Grid.Column="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Width="100" Height="30" Margin="5,10,0,0" Content="Головна" FontFamily="Arial" FontSize="14" Foreground="LightSlateGray" BorderBrush="White"/>
+                <Button Grid.Column="1" Width="100" Height="30" Margin="0,10,0,0" Content="Каталог" FontFamily="Arial" FontSize="14" Foreground="LightSlateGray" BorderBrush="White"/>
+                <Button Grid.Column="2" Width="100" Height="30" Margin="0,10,0,0" Content="Контакти" FontFamily="Arial" FontSize="14" Foreground="LightSlateGray" BorderBrush="White"/>
+                <Button Grid.Column="3" Width="100" Height="30" Margin="0,10,0,0" Content="Підтримка" FontFamily="Arial" FontSize="14" Foreground="LightSlateGray" BorderBrush="White"/>
+
+                <Button Grid.Column="4" Width="35" Margin="0,10,10,0" HorizontalAlignment="Right" Background="White" BorderBrush="White">
+                    <Image Source="img/icon-search.png" Width="30"/>
+                </Button>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2">
+            <Grid>
+                <Button Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,5,0">
+                    <Image Source="img/cart-ico.jpg" />
+                </Button>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0" Source="img/header_00.jpg"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Grid.Column="1" Source="img/header_01.jpg"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Grid.Column="2" Source="img/header_02.jpg"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+
+        <ListBox Grid.Row="2" Grid.Column="0" BorderBrush="White">
+            <TextBlock Text="Фільтр:" FontSize="16" FontWeight="Black"/>
+            <Line Stretch="Fill" Stroke="Black" X2="110"/>
+            <TextBlock Text="Модель:" FontSize="14" FontWeight="Bold"/>
+            <ListBox BorderBrush="white" Background="White">
+                <CheckBox IsChecked="False" Content="ZenBook" />
+                <CheckBox IsChecked="False" Content="VivoBook" />
+                <CheckBox IsChecked="False" Content="ASUS Laptop" />
+                <CheckBox IsChecked="False" Content="ROG" />
+                <CheckBox IsChecked="False" Content="FX / ZX" />
+                <CheckBox IsChecked="False" Content="TUF Gaming" />
+            </ListBox>
+            <Line Stretch="Fill" Stroke="Black" X2="110"/>
+            <TextBlock Text="Рік:" FontSize="14" FontWeight="Bold"/>
+            <ListBox BorderBrush="white">
+                <CheckBox IsChecked="False" Content="2019" />
+                <CheckBox IsChecked="False" Content="2018" />
+                <CheckBox IsChecked="False" Content="2017" />
+            </ListBox>
+        </ListBox>
+        
+        <ListBox BorderThickness="2" HorizontalContentAlignment="Left" Grid.Column="1" Grid.Row="2" BorderBrush="White"  Name="Menu" SelectionChanged="Menu_SelectionChanged" FontFamily="Arial" FontSize="12">
+            <TextBlock Text="-> Ноутбуки:" FontFamily="Arial" FontWeight="SemiBold" FontSize="20"/>
+            <ListBoxItem Margin="0,0,0,5">1. Asus TUF Gaming FX505GE-BQ371 (90NR00S2-M07930) Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/01.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">2. Asus ZenBook 13 UX333FN-A3107T (90NB0JW1-M02900) Royal Blue
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/02.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">3. Asus ZenBook Pro 15 UX580GE-BN070T (90NB0I83-M03130) Deep Dive Blue
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/03.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">4. Asus ROG Strix GL503GE-EN049T (90NR0084-M00600) Hero Monster Scale
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/04.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">5. Asus VivoBook 15 X542UF-DM262 (90NB0IJ3-M03720) Golden
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/05.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">6. Asus VivoBook 15 X542UF-DM261 (90NB0IJ2-M03710) Dark Grey
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/06.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">7. Asus VivoBook D540NA-GQ211T (90NB0HG1-M04200) Chocolate Black з Windows 10!
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/07.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">8. Asus VivoBook X540MA-GQ001 (90NB0IR1-M00110) Chocolate Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/08.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">9. Asus TUF Gaming FX505GE-BQ134 (90NR00S2-M08060) Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/09.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">10. Asus TUF Gaming FX705GE-EW118 (90NR00Z2-M04460) Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/10.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">11. Asus TUF Gaming FX504GM-E4237 (90NR00Q1-M04760) Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="200" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="200" Source="img/11.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+            <ListBoxItem Margin="0,0,0,5">12. Asus VivoBook X540MA-GQ001 (90NB0IR1-M00110) Chocolate Black
+                <ListBoxItem.ToolTip>
+                    <StackPanel Background="LightSlateGray" Height="210" Margin="5,5,5,5">
+                        <StackPanel Background="LightSlateGray" Margin="2,2,2,2">
+                            <Image Width="210" Source="img/12.png"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ListBoxItem.ToolTip>
+            </ListBoxItem>
+        </ListBox>
+
+        <ListBox Grid.Row="2" Grid.Column="3" BorderBrush="White">
+            <TextBlock Text="Телефон:" FontSize="14" FontWeight="Bold"/>
+            <TextBlock Text="+380 (067) 123-4567"/>
+            <TextBlock Text="+380 (050) 123-4567"/>
+            <TextBlock Text="E-mail:" FontSize="14" FontWeight="Bold"/>
+            <TextBlock Text="asusmarket@ukr.net"/>
+        </ListBox>
+
+        <ListBox Grid.Row="3" Grid.Column="0" BorderBrush="White">
+            <TextBox Text="E-mail" Width="100" Height="20" Margin="0,10,0,0" BorderBrush="Gray" Foreground="LightGray"/>
+            <Button Content="Підписатися"/>
+        </ListBox>
+
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            
+            <ListBox Grid.Column="0" BorderBrush="White">
+                <TextBlock Text="Допомога:" FontSize="14" FontWeight="Bold"/>
+                <TextBlock Text="-> Доставка та оплата" Margin="0,-5,0,0"/>
+                <TextBlock Text="-> Сервісні центри" Margin="0,-5,0,0"/>
+                <TextBlock Text="-> Запитання та відповіді" Margin="0,-5,0,0"/>
+            </ListBox>
+            <ListBox Grid.Column="1" BorderBrush="White">
+                    <TextBlock Text="Інформація про компанію:" FontSize="14" FontWeight="Bold"/>
+                    <TextBlock Text="-> Про нас" Margin="0,-5,0,0"/>
+                    <TextBlock Text="-> Вакансії" Margin="0,-5,0,0"/>
+                    <TextBlock Text="-> Контакти" Margin="0,-5,0,0"/>
+            </ListBox>                
+            </Grid>            
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button  Grid.Column="0" Grid.Row="0" Margin="1" BorderBrush="White" Background="White">
+                <Image Source="img/s_inst.png"/>
+                </Button>
+                <Button  Grid.Column="0" Grid.Row="1" Margin="1" BorderBrush="White" Background="White">
+                <Image Source="img/s_twit.png"/>
+                </Button>
+                <Button Grid.Column="1" Grid.Row="0" Margin="1"  BorderBrush="White" Background="White">
+                    <Image Source="img/s_yout.png"/>
+                </Button>
+                <Button Grid.Column="1" Grid.Row="1" Margin="1" BorderBrush="White" Background="White">
+                    <Image  Source="img/s_face.png"/>
+                </Button>
+
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>
+

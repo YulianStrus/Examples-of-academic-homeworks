@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Transition</string>
+    <string name="textRed">Червоний</string>
+    <string name="textYellow">Жовтий</string>
+    <string name="textGreen">Зелений</string>
+    <string name="addCrown">Ворона +1</string>
+    <string name="addCat">Кіт +1</string>
+    <string name="addDog">Собака +1</string>
+    <string name="addMan">Кореєць +1</string>
+    <string name="ButUndo"><![CDATA[<]]></string>
+    <string name="ButRedo"><![CDATA[>]]></string>
+</resources>

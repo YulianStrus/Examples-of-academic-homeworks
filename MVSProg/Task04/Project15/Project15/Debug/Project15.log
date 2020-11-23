@@ -1,0 +1,4 @@
+﻿  Task1.cpp
+d:\mvsprog\task4\project15\project15\task1.cpp(4): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task4\project15\project15\task1.cpp(12): warning C4129: '%': unrecognized character escape sequence
+  Project15.vcxproj -> D:\MVSProg\Task4\Project15\Debug\Project15.exe

@@ -1,0 +1,3 @@
+﻿  Task7.cpp
+d:\mvsprog\task2\project7\project7\task7.cpp(4): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project7.vcxproj -> D:\MVSProg\Task2\Project7\Debug\Project7.exe
