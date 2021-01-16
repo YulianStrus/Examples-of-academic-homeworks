@@ -1,2 +1,0 @@
-This is files!
-This program counts the number of characters in this file!

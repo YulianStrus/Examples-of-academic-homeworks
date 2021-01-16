@@ -1,3 +1,0 @@
-﻿  Source.cpp
-d:\mvsprog\task41\project3\project3\source.cpp(14): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Project3.vcxproj -> D:\MVSProg\Task41\Project3\Debug\Project3.exe

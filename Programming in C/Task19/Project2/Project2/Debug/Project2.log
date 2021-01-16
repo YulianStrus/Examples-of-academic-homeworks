@@ -1,4 +1,0 @@
-﻿  Source.cpp
-d:\mvsprog\task19\project2\project2\source.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
-d:\mvsprog\task19\project2\project2\source.cpp(11): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
-  Project2.vcxproj -> D:\MVSProg\Task19\Project2\Debug\Project2.exe

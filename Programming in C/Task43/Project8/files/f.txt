@@ -1,6 +1,0 @@
-Th1s 1s f1les! 
-Th1s pr0gram 
-replaces all d1g1ts 
-1 by 0 
-and v1ce versa!
-

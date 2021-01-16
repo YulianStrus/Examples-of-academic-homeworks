@@ -1,7 +1,0 @@
-This is files! 
-This program looks 
-for the number of words 
-in this file 
-that begin 
-with a given letter!
-

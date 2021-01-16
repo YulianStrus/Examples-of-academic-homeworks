@@ -1,6 +1,0 @@
-﻿  Source.cpp
-d:\mvsprog\task19_1\project3\project3\source.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
-d:\mvsprog\task19_1\project3\project3\source.cpp(11): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
-d:\mvsprog\task19_1\project3\project3\source.cpp(22): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
-d:\mvsprog\task19_1\project3\project3\source.cpp(34): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
-  Project3.vcxproj -> D:\MVSProg\Task19_1\Project3\Debug\Project3.exe

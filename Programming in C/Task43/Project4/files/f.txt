@@ -1,5 +1,0 @@
-This is files!
-This program 
-counts the number 
-of rows
-in this file!

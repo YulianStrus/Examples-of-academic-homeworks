@@ -1,4 +1,0 @@
-﻿  Source.cpp
-d:\mvsprog\task21\project7\project7\source.cpp(11): warning C4326: return type of 'main' should be 'int' instead of 'void'
-d:\mvsprog\task21\project7\project7\source.cpp(15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  Project7.vcxproj -> D:\MVSProg\Task21\Project7\Debug\Project7.exe

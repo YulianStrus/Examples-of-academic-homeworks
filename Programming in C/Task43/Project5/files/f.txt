@@ -1,5 +1,0 @@
-This is files!
-This program 
-counts removes 
-the last line 
-in this file!
