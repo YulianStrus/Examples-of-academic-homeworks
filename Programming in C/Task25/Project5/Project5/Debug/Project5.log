@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\mvsprog\task25\project5\project5\source.cpp(10): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task25\project5\project5\source.cpp(7): warning C4715: 'SumNum': not all control paths return a value
+  Project5.vcxproj -> D:\MVSProg\Task25\Project5\Debug\Project5.exe
