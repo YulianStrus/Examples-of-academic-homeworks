@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  Source.cpp
+d:\mvsprog\task23\project2\project2\source.cpp(6): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Project2.vcxproj -> D:\MVSProg\Task23\Project2\Debug\Project2.exe

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+d:\mvsprog\task21\project10\project10\source.cpp(24): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task21\project10\project10\source.cpp(34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\mvsprog\task21\project10\project10\source.cpp(35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\mvsprog\task21\project10\project10\source.cpp(36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Project10.vcxproj -> D:\MVSProg\Task21\Project10\Debug\Project10.exe

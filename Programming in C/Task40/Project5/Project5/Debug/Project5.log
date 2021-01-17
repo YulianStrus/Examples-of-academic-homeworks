@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\MVSProg\Task40\Project5\Project5\Source.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\MVSProg\Task40\Project5\Project5\Source.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Project5.vcxproj -> D:\MVSProg\Task40\Project5\Debug\Project5.exe

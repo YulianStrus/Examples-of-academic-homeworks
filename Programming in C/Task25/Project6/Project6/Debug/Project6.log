@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\mvsprog\task25\project6\project6\source.cpp(35): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\mvsprog\task25\project6\project6\source.cpp(22): warning C4715: 'MinSumArr': not all control paths return a value
+d:\mvsprog\task25\project6\project6\source.cpp(32): warning C4715: 'MinArr': not all control paths return a value
+  Project6.vcxproj -> D:\MVSProg\Task25\Project6\Debug\Project6.exe
