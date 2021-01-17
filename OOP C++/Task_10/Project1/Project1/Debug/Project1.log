@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\mvsprog\task52\project1\project1\source.cpp(115): warning C4101: z: неиспользованная локальная переменная
+d:\mvsprog\task52\project1\project1\source.cpp(115): warning C4101: k: неиспользованная локальная переменная
+  Project1.vcxproj -> D:\MVSProg\Task52\Project1\Debug\Project1.exe

@@ -1,0 +1,6 @@
+﻿  main.cpp
+d:\mvsprog\task74\project1\project1\main.cpp(159): warning C4018: <: несоответствие типов со знаком и без знака
+d:\mvsprog\task74\project1\project1\main.cpp(176): warning C4018: <: несоответствие типов со знаком и без знака
+d:\mvsprog\task74\project1\project1\main.cpp(195): warning C4018: <: несоответствие типов со знаком и без знака
+d:\mvsprog\task74\project1\project1\main.cpp(247): warning C4018: <: несоответствие типов со знаком и без знака
+  Project1.vcxproj -> D:\MVSProg\Task74\Project1\Debug\Project1.exe

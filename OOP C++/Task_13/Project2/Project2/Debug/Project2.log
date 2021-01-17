@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\mvsprog\task57\project2\project2\main.cpp(65): warning C4715: Stack<char>::Pop: значение возвращается не при всех путях выполнения
+  Project2.vcxproj -> D:\MVSProg\Task57\Project2\Debug\Project2.exe

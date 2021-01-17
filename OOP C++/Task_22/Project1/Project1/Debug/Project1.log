@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\mvsprog\task68\project1\project1\main.cpp(257): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\mvsprog\task68\project1\project1\main.cpp(286): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Project1.vcxproj -> D:\MVSProg\Task68\Project1\Debug\Project1.exe

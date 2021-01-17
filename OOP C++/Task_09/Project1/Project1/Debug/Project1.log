@@ -1,0 +1,12 @@
+﻿  Source.cpp
+d:\mvsprog\task51_1\project1\project1\source.cpp(11): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+d:\mvsprog\task51_1\project1\project1\source.cpp(38): error C2059: синтаксическая ошибка: .
+d:\mvsprog\task51_1\project1\project1\source.cpp(45): error C2660: Overcoat::SetType: функция не принимает 2 аргументов
+  d:\mvsprog\task51_1\project1\project1\source.cpp(13): note:  см. объявление "Overcoat::SetType"
+d:\mvsprog\task51_1\project1\project1\source.cpp(46): error C2660: Overcoat::SetType: функция не принимает 2 аргументов
+  d:\mvsprog\task51_1\project1\project1\source.cpp(13): note:  см. объявление "Overcoat::SetType"
+d:\mvsprog\task51_1\project1\project1\source.cpp(51): error C3867: "Overcoat::showType": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\mvsprog\task51_1\project1\project1\source.cpp(54): error C3867: "Overcoat::showType": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\mvsprog\task51_1\project1\project1\source.cpp(58): error C3867: "Overcoat::showOvercoat": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\mvsprog\task51_1\project1\project1\source.cpp(59): error C3867: "Overcoat::showOvercoat": нестандартный синтаксис; используйте "&", чтобы создать указатель на член

@@ -1,0 +1,98 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+class Vector
+{
+private:
+	int x;
+	int y;
+public:
+	Vector() : x(0), y(0)
+	{}
+	Vector(int vx, int vy) : x(vx), y(vy)
+	{}
+	void showVector()
+	{
+		cout << x << ":" << y << "";
+	}
+	void showProizVector()
+	{
+		cout << x + y << "";
+	}
+
+	Vector operator+(Vector d2)const
+	{
+		int vx = x + d2.x;
+		int vy = y + d2.y;
+		return Vector(vx, vy);
+	};
+	Vector operator%(Vector d2)const
+	{
+		int vx = x * d2.x;
+		int vy = y * d2.y;
+		return Vector((vx + vy), vx * 0);
+	};
+	Vector operator*(Vector d2)const
+	{
+		int vx = y * d2.x - x * d2.y;
+		int vy = x * d2.y - y * d2.x;
+		return Vector((vx + vy), vx * 0);
+	};
+	Vector operator+=(Vector& d2)
+	{
+		int vx += d2.x;
+		int vy += d2.y;
+		return Vector(vx, vy);
+	};
+	Vector operator-=(Vector& d2)
+	{
+		x -= d2.x;
+		y -= d2.y;
+		return Vector(x, y);
+	};
+	Vector operator%=(Vector& d2)
+	{
+		x %= d2.x;
+		y %= d2.y;
+		return Vector(x, y);
+	};
+	Vector operator*=(Vector& d2)
+	{
+		x *= d2.x;
+		y *= d2.y;
+		return Vector(x, y);
+	};
+};
+
+
+int main()
+{
+	setlocale(0, "Rus");
+	int x, y, z, i, j, k;
+	Vector A1, A2, A3;
+	cout << "Введите координаты вектора a: " << endl;
+	cin >> x >> y;
+	cout << "Введите координаты вектора b: " << endl;
+	cin >> i >> j;
+	A1 = Vector(x, y);
+	A2 = Vector(i, j);
+	A3 = A1 + A2;
+	cout << "Сложение A1("; A1.showVector(); cout << ") + A2("; A2.showVector(); cout << ") = A3("; A3.showVector(); cout << ")" << endl;
+	A3 = A1 % A2;
+	cout << "Скалярное произведение A1("; A1.showVector(); cout << ") % A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+	A3 = A1 * A2;
+	cout << "Векторное произведение A1("; A1.showVector(); cout << ") * A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+	A1 += A2;
+	cout << "Векторное произведение A1("; A1.showVector(); cout << ") += A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+	A1 -= A2;
+	cout << "Векторное произведение A1("; A1.showVector(); cout << ") -= A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+	A1 %= A2;
+	cout << "Векторное произведение A1("; A1.showVector(); cout << ") %= A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+	A1 *= A2;
+	cout << "Векторное произведение A1("; A1.showVector(); cout << ") *= A2("; A2.showVector(); cout << ") = "; A3.showProizVector(); cout << endl;
+
+	cin.get();
+	cin.get();
+	return 0;
+}
